@@ -1,0 +1,96 @@
+/* 
+    Theme Name: Projekt
+    Description: Ein simples WP Theme
+    Version: 1.0
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:white;
+}
+
+body {
+    font: 1em Arial;
+    margin:0px;
+}
+
+.logo {
+    height:20px;
+    height:20px;
+}
+
+.container{
+    width: 1146px;
+    height: 976px;
+    border: 4px solid black;
+}
+
+header {
+    background:lightblue;
+    padding:1em;
+    width: 1920px;
+    height: 972px;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+/* main {
+    padding:1em 0; 
+    margin-bottom: 10px; 
+} */
+
+article {
+    padding: 1em;
+    background:#eee;
+    margin-bottom:1em;
+}
+
+aside {
+    background:silver;
+    padding:1em;
+    border: 4px solid black;
+}
+
+footer {
+    background:darkgrey;
+    padding:1em;
+}
+
+@media screen and (min-width:600px) {
+    
+    /* .site {
+        max-width: 1000px;
+        margin:0 auto;
+    }
+     */
+
+    aside {
+        width:36%;
+        float:right;
+    }
+    
+    .latest-posts {
+        clear:both;
+    }
+    
+    .latest-posts article {
+        width:33.333%;
+        float:left;
+    }
+    
+    footer {
+        clear:both;
+    }
+    
+}
+
+.under {
+    color:green;
+    margin-top: 25px;
+
+}
