@@ -18,11 +18,11 @@
     </header>
 
     <p class="description">A marketing and brand<br>
-    creation agency</p>
-    <br>
+    creation agency.</p>
     <p class="description_one"> We don't just make logos, we make design & content
     <br>
     choices that disrupt the market from the inside out.
+    <br>
     <br>
     <button class="btn button-started"> 
         Get started
