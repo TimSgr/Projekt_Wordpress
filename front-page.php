@@ -1,22 +1,33 @@
 <?php get_header(); ?>
-    <main>
-        <div class="loop">
-           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                <?php get_template_part('template_parts/content','page');?>
-
-            <?php endwhile; else : ?>
-
-                <?php get_template_part('template_parts/content','error');?>
-
-            <?php endif; ?>
+<section class="erste_section">       
+    <?php get_sidebar('links')?>
+    <?php get_sidebar('rechts')?>
+    <header>
+        <div class="kopf">
+            <img src="<?php bloginfo('template_url'); ?>/img/logo_white.svg" class="logo">
+            <a class="zwischen" href="#"> Home </a>
+            <a class="zwischen" href="#"> Blog </a>
+            <a class="zwischen" href="#"> Info </a>
+            
+            P:(800)997-9714
+            <button class="btn button-start">
+            START A PROJECT
+            </button>
         </div>
-        
-       <?php get_sidebar() ;?>
-        
-        
-        <?php get_template_part('template_parts/latest-posts');?>
-        
-        
-    </main>
-<?php get_footer() ;?>
+    </header>
+
+    <p class="description">A marketing and brand<br>
+    creation agency</p>
+    <br>
+    <p class="description_one"> We don't just make logos, we make design & content
+    <br>
+    choices that disrupt the market from the inside out.
+    <br>
+    <button class="btn button-started"> 
+        Get started
+    </button>
+    <button class="btn button-more">
+        Learn more
+    </button>
+</section>

@@ -1,20 +1,19 @@
 <?php
-function themename_widgets_init() {
-    register_sidebar( array(
-        'name'          => __( 'Primary Sidebar', 'theme_name' ),
-        'id'            => 'sidebar-1',
-        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</aside>',
-        'before_title'  => '<h3 class="widget-title">',
-        'after_title'   => '</h3>',
-    ) );
- 
-    register_sidebar( array(
-        'name'          => __( 'Secondary Sidebar', 'theme_name' ),
-        'id'            => 'sidebar-2',
-        'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
-        'after_widget'  => '</li></ul>',
-        'before_title'  => '<h3 class="widget-title">',
-        'after_title'   => '</h3>',
-    ) );
+function your_theme_enqueue_scripts() {
+    // all styles
+    wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.css', array(), 20141119 );
+    wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/css/style.css', array(), 20141119 );
+    // all scripts
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '20120206', true );
+    wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20120206', true );
 }
+add_action( 'wp_enqueue_scripts', 'your_theme_enqueue_scripts' );
+
+if ( function_exists('register_sidebar') )
+register_sidebar(array(
+  'name' => 'Sidebar rechts',
+));
+register_sidebar(array(
+  'name' => 'Sidebar links',
+));
+?>
