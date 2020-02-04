@@ -22,6 +22,12 @@ body {
     height:20px;
 }
 
+.unsichtbar {
+    float:right;
+}
+
+
+
 .erste_section {
     background-image:url("img/b.jpg");
     height: 976px;
@@ -29,6 +35,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    margin-top: -32px !important;
 }
 
 .description {
@@ -130,3 +137,22 @@ footer {
     margin-top: 25px;
 
 }
+
+.kopf {
+    padding-top: 5px;
+}
+
+.zweite_section {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rand {
+    border: 2px solid black;   
+}
+
+.rand:hover{
+    background-color:#24dc97;
+ }
