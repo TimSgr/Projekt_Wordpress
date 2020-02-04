@@ -26,12 +26,10 @@ body {
     float:right;
 }
 
-
-
 .erste_section {
     background-image:url("img/b.jpg");
     height: 976px;
-    width: 1920px;
+    max-width: 1920px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -42,6 +40,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     font-family: sans-serif;
+    padding-top: 50px;
 }
 
 .button-start {
@@ -68,8 +67,8 @@ body {
 }
 
 header {
-    width: 1706px;
-    height: 92px;
+    max-width: 1706px;
+    max-height: 92px;
 }
 
 .zwischen {
@@ -132,6 +131,10 @@ footer {
     
 }
 
+.rechts {
+    margin-right:-300px !important;
+}
+
 .under {
     color:green;
     margin-top: 25px;
@@ -142,17 +145,48 @@ footer {
     padding-top: 5px;
 }
 
-.zweite_section {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+/* .zweite_section {
 
-}
+} */
 
 .rand {
-    border: 2px solid black;   
+    border: 2px solid black;
+    transition: all 0.5s ease;
 }
 
 .rand:hover{
     background-color:#24dc97;
+    transform: scale(1.2); 
  }
+
+  
+.überschrift {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 96px;
+}
+
+.description1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.zentrieren {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo2 {
+    max-width: 635px;
+    max-height: 478px;
+    transition: all 0.5s ease;
+}
+
+.logo2:hover{
+    transform: scale(1.2); 
+ }
+
+.überlappen {
+    position:relative;
+}

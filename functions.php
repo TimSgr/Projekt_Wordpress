@@ -16,4 +16,4 @@ register_sidebar(array(
 register_sidebar(array(
   'name' => 'Sidebar links',
 ));
-?>
+
