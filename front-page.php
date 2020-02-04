@@ -98,9 +98,9 @@
 </div>
 </section>
 
-<section class="dritte_section zentrieren">
+<!-- <section class="dritte_section zentrieren">
 <p> Portfolio </p>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-xs-4 thumb">
             <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
@@ -113,7 +113,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid">
     <div class="row überlappen">
         <div class="col-lg-4 col-md-4 col-xs-4 thumb">
             <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
@@ -126,4 +126,23 @@
         </div>
     </div>
 </div>
+</section> -->
+
+<section>
+    <p class="blog_absatz zentrieren">
+        BLOG
+    </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <img src="<?php bloginfo('template_url'); ?>/img/01.png" class="logo3">
+            </div>
+            <div class="col-4">
+                <img src="<?php bloginfo('template_url'); ?>/img/02.png" class="logo3">
+            </div>
+            <div class="col-4">
+                <img src="<?php bloginfo('template_url'); ?>/img/03.jpg" class="logo3">
+            </div>
+        </div>
+    </div>
 </section>
