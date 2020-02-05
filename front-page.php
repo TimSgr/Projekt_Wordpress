@@ -19,7 +19,8 @@
                             P:(800)997-9714 &nbsp;
 							<a href="#">
 								<button class="btn button-start">START A PROJECT</button>
-							</a>
+                            </a>
+                        </div>
 					</nav>
 				</header>
 				<p class="description">A marketing and brand</p>
@@ -33,7 +34,7 @@
 					</p>
 					</a>
 				</p>
-				</div>
+            </div>
         </div>
     </div>
 
@@ -50,42 +51,41 @@
 				<div class="description1 zentrieren">We create amazing digital experience and help our customers reach
 					<br>their goals 3x faster than our competitors.</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm rand zentrieren anzeigen">
-					<img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
-					<p>Websites</p>
-					<p>We create websites for</p>
-                    <p>humans and humans create websites for us.</p>
-                    <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
-				</div>
-				<div class="col-sm rand zentrieren anzeigen">
-					<img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
-					<p>Mobile</p>
-					<p>Enjoy a new mobile</p>
-					<p>experience with respositive</p>
-                    <p>support.</p>
-                    <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
-				</div>
-				<div class="col-sm rand zentrieren anzeigen">
-                    <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
-					<p>Mobile</p>
-					<p>Enjoy a new mobile</p>
-					<p>experience with respositive</p>
-                    <p>support.</p>
-                    <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
-                </div>
-				<div class="col-sm rand zentrieren anzeigen">
-					<img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
-					<p>Design & UX</p>
-					<p>We adjust each detail, so it fits</p>
-                    <p>your expectations.</p>
-                    <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
-				</div>
-			</div>
-		</div>
-	</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm rand zentrieren anzeigen">
+                <img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
+                <p>Websites</p>
+                <p>We create websites for</p>
+                <p>humans and humans create websites for us.</p>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+            </div>
+            <div class="col-sm rand zentrieren anzeigen">
+                <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
+                <p>Mobile</p>
+                <p>Enjoy a new mobile</p>
+                <p>experience with respositive</p>
+                <p>support.</p>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+            </div>
+            <div class="col-sm rand zentrieren anzeigen">
+                <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
+                <p>Mobile</p>
+                <p>Enjoy a new mobile</p>
+                <p>experience with respositive</p>
+                <p>support.</p>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+            </div>
+            <div class="col-sm rand zentrieren anzeigen">
+                <img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
+                <p>Design & UX</p>
+                <p>We adjust each detail, so it fits</p>
+                <p>your expectations.</p>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -98,30 +98,30 @@
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
                         <div class="text-block1">
-                        <h4> Digital menu </h4>
-                        <p> Mobile
-                        </p>
-                    </div>
+                            <h4> Digital menu </h4>
+                            <p> Mobile
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-4 abstand">
                     <div class="container abstand">        
                         <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
                         <div class="text-block1">
-                        <h4> Can you change the world on your </h4>
-                        <p>
-                        </p>
-                    </div>
+                            <h4> Can you change the world on your </h4>
+                            <p>
+                            </p>
+                        </div>
                     </div>
                 </div>            
                 <div class="col-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
                         <div class="text-block1">
-                        <h4> Can you change the world on your </h4>
-                        <p>
-                        </p>
-                    </div>
+                            <h4> Can you change the world on your </h4>
+                            <p>
+                            </p>
+                        </div>
                     </div>
                 </div>    
         </div>
