@@ -25,14 +25,18 @@
 				</header>
 				<p class="description">A marketing and brand</p>
                 <p class="description11">creation agency.</p>
-					<p class="description_one">We don't just make logos, we make design & content</p>
+                    
+                    <p class="description_one">We don't just make logos, we make design & content</p>
 					<p class="description_one">choices that disrupt the market from the inside out.</p>
-					<button class="btn button-started">Get started</button>
+                    
+                    <button class="btn button-started">Get started</button>
 					<button class="btn button-more">Learn more</button>
-					<p class="zentrieren">
-						<a href="#zweite_section"> <i class="arrow down"></i>
+                    
+                    <p class="zentrieren">
+						<a href="#zweite_section"> 
+                            <i class="arrow down"></i>
+                        </a>
 					</p>
-					</a>
 				</p>
             </div>
         </div>
@@ -330,22 +334,22 @@
                     <div class="col-md-3">
                     </div>
                     <div class="form-group col-md-3">
-                    <input type="name" class="form-control" placeholder="Name" required>
+                        <input type="name" class="form-control" placeholder="Name" required>
                     </div>
                     <div class="form-group col-md-3">
-                    <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" class="form-control" placeholder="Email">
                     </div>
-                </div> 
+                </div>
                 <div class="form-row">
                     <div class="col-md-3">
                     </div>
                     <div class="form-group col-md-3">
-                    <input type="phone" class="form-control" placeholder="Phone">
+                        <input type="phone" class="form-control" placeholder="Phone">
                     </div>
                     <div class="form-group col-md-3">
-                    <input class="form-control" placeholder="Company">
+                        <input class="form-control" placeholder="Company">
                     </div>
-                </div> 
+                </div>
                 <div class="form-row">
                     <div class="col-md-3">
                     </div>
