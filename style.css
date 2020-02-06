@@ -12,9 +12,10 @@ a {
     color:white;
 }
 
-body {
-    font: 1em Arial;
+p {
+    font: 20px Sans-serif;
     margin:0px;
+    font-weight: lighter !important;
 }
 
 .logo {
@@ -24,6 +25,11 @@ body {
 
 .unsichtbar {
     float:right;
+}
+
+.fett { 
+    font-weight: bolder;
+    font-size: 50px;
 }
 
 .erste_section {
@@ -60,7 +66,7 @@ body {
 }
 
 .placeholder {
-    margin-bottom: -80px;
+    bottom: 20px;
 }
 
 h1 {
@@ -192,26 +198,42 @@ footer {
 }
 
 .dritte_section {
-    padding-top:20px;
+    padding-top:60px;
     margin-top: 50px;
     background-color: #f7f9f9;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .vierte_section {
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     padding-top: 50px;
 }
 
 .fünfte_section {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: honeydew;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
 
 .sechste_section {
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
+
+.siebte_section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 178px;
+    background-color: rgb(240, 240, 240);
+}
+
+.achte_section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
 
 .rand {
     /* border: 2px solid black; */
@@ -236,8 +258,9 @@ footer {
 
 .zentrieren {
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .logo2 {

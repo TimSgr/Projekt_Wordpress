@@ -90,16 +90,18 @@
 </section>
 
 <section class="dritte_section">
-<p class="text-center">PORTFOLIO</p>
-<p class="text-center">Our philosophy and expertise are best represented by our work </p>
+    <div class="überschrift">
+        <p class="text-center">PORTFOLIO</p>
+        <p class="text-center">Our philosophy and expertise are best represented by our work </p>
+    </div>
     <div class="container-fluid oben">
         <div class="row">
                 <div class="col-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
                         <div class="text-block1">
-                            <h4> Digital menu </h4>
-                            <p> Mobile
+                            <h4>Digital menu </h4>
+                            <p>MOBILE
                             </p>
                         </div>
                     </div>
@@ -108,8 +110,8 @@
                     <div class="container abstand">        
                         <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
                         <div class="text-block1">
-                            <h4> Can you change the world on your </h4>
-                            <p>
+                            <h4>M is for Meteor </h4>
+                            <p>MOBILE
                             </p>
                         </div>
                     </div>
@@ -118,8 +120,8 @@
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
                         <div class="text-block1">
-                            <h4> Can you change the world on your </h4>
-                            <p>
+                            <h4>Android Theme </h4>
+                            <p>MOBILE
                             </p>
                         </div>
                     </div>
@@ -132,8 +134,8 @@
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
                     <div class="text-block1">
-                        <h4> Can you change the world on your </h4>
-                        <p>
+                        <h4>Encourage Others Re-Work </h4>
+                        <p>MOBILE
                         </p>
                     </div>
                 </div>
@@ -142,7 +144,7 @@
                 <div class="container abstand">        
                     <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
                     <div class="text-block1">
-                        <h4> Can you change the world on your </h4>
+                        <h4>  </h4>
                         <p>
                         </p>
                     </div>
@@ -152,8 +154,8 @@
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
                     <div class="text-block1">
-                        <h4> Can you change the world on your </h4>
-                        <p>
+                        <h4>More about less </h4>
+                        <p>MOBILE
                         </p>
                     </div>
                 </div>
@@ -230,9 +232,11 @@
 <section class="fünfte_section">
     <div class="container">
         <div class="col-12 text-center">
-            <h1>TESTMONIALS</h1>
-            <p> "Can say about these guys only good works. It has been a pleasure</p>
-            <p> working with them creating the strategy for my small car company</p>
+            <div class="überschrift">
+                <p>TESTMONIALS</p>
+            </div>
+            <p class="oben">"Can say about these guys only good works. It has been a pleasure</p>
+            <p>working with them creating the strategy for my small car company</p>
             <p class="font-weight-bold"> and even some more nice things"</p>
             <img src="<?php bloginfo('template_url'); ?>/img/72.png" class="logo5 rounded-circle">
             <p>Agnese Nada, Luxury Cars</p>
@@ -247,36 +251,112 @@
                     <div class="überschrift zentrieren">
                         <p>MEET THE TEAM</p>
                     </div>
-                    <div class="description1 zentrieren">Our team values more than big budgets.</p>
-                    <p>We do our best to meet our customers expectations, always in time</p>
+                    <div class="description1 zentrieren">
+                        Our team values more than big budgets.</p>
+                        <p>We do our best to meet our customers expectations, always in time</p>
                     </div>
 
                 </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm zentrieren">
+                <img src="<?php bloginfo('template_url'); ?>/img/154-2.png" class="logo6 rounded-circle">
+                <p>Maria Brown</p>
+                <p>Founder & Creative Director</p>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm zentrieren">
-                        <img src="<?php bloginfo('template_url'); ?>/img/154-2.png" class="logo6 rounded-circle">
-                        <p>Maria Brown</p>
-                        <p>Founder & Creative Director</p>
-                    </div>
-                    <div class="col-sm zentrieren">
-                        <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo6 rounded-circle">
-                        <p>Lia Karolmozz</p>
-                        <p>Development Officer</p>
-                    </div>
-                    <div class="col-sm zentrieren">
-                        <img src="<?php bloginfo('template_url'); ?>/img/154-4.png" class="logo6 rounded-circle">
-                        <p>Amanda Ross</p>
-                        <p>Design & Front-End</p>
-                    </div>
-                    <div class="col-sm zentrieren">
-                        <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo6 rounded-circle">
-                        <p>John Green</p>
-                        <p>Founder & Creative Director</p>
-                    </div>
-                </div>
+            <div class="col-sm zentrieren">
+                <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo6 rounded-circle">
+                <p>Lia Karolmozz</p>
+                <p>Development Officer</p>
+            </div>
+            <div class="col-sm zentrieren">
+                <img src="<?php bloginfo('template_url'); ?>/img/154-4.png" class="logo6 rounded-circle">
+                <p>Amanda Ross</p>
+                <p>Design & Front-End</p>
+            </div>
+            <div class="col-sm zentrieren">
+                <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo6 rounded-circle">
+                <p>John Green</p>
+                <p>Founder & Creative Director</p>
             </div>
         </div>
     </div>
+</section>
+
+<section class="siebte_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="question">
+                    Have you fallen in love yet?
+                </p>
+                <p class="fett">
+                    Start a project
+                </p>
+                <p class="">
+                    Together in pursing new knowledge, finding the answers
+                </p>
+                <p class="">
+                    and having some fun along the way
+                </p>
+                <button class="btn button-started">Get started</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="achte_section">
+    <div class="container zentrieren">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">
+                    GET A QUOTE
+                </p>
+                <p>
+                    Get started right now - we'll make sure to get back to you
+                </p>
+                <p>
+                    in the next minutes. Amazing yay!
+                </p>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div class="container">
+            <div class="col-12">
+                <div class="form-row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="form-group col-md-3">
+                    <input type="name" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="form-group col-md-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                </div> 
+                <div class="form-row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="form-group col-md-3">
+                    <input type="phone" class="form-control" placeholder="Phone">
+                    </div>
+                    <div class="form-group col-md-3">
+                    <input class="form-control" placeholder="Company">
+                    </div>
+                </div> 
+                <div class="form-row">
+                    <div class="col-md-3">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="zentrieren">
+                    <button class="btn button-started">Send</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </section>
