@@ -364,3 +364,52 @@
         </div>
     </form>
 </section>
+
+<section class="neunte_section">
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-12">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (47).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (32).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (30).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (44).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (43).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (42).png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                        <div class="col-md-2 abstand">
+                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

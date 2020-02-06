@@ -305,6 +305,11 @@ i {
     margin-right: auto;
 }
 
+.logo111{
+    width: 100%;
+    height: 100%;
+}
+
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
