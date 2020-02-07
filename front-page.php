@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="erste_section">
+<section class="section_1">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -33,7 +33,7 @@
 					<button class="btn button-more">Learn more</button>
                     
                     <p class="text-center">
-						<a href="#zweite_section"> 
+						<a href="#section_2"> 
                             <i class="arrow down"></i>
                         </a>
 					</p>
@@ -43,7 +43,7 @@
     </div>
 </section>
 
-<section class="zweite_section" id="zweite_section">
+<section class="section_2" id="section_2">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -61,7 +61,8 @@
                 <img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
                 <p>Websites</p>
                 <p>We create websites for</p>
-                <p>humans and humans create websites for us.</p>
+                <p>humans and humans create 
+                <p>websites for us.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
             <div class="col-sm rand text-center anzeigen">
@@ -91,7 +92,7 @@
     </div>
 </section>
 
-<section class="dritte_section">
+<section class="section_3">
     <div class="überschrift">
         <p class="text-center">PORTFOLIO</p>
         <p class="text-center">Our philosophy and expertise are best represented by our work </p>
@@ -170,7 +171,7 @@
     </div>
 </section>
 
-<section class="vierte_section">
+<section class="section_4">
     <p class="blog_absatz text-center">
         BLOG
     </p>
@@ -231,7 +232,7 @@
     </div>
 </section>
 
-<section class="fünfte_section">
+<section class="section_5">
     <div class="container">
         <div class="col-12 text-center">
             <div class="überschrift">
@@ -246,7 +247,7 @@
     </div>
 </section>
 
-<section class="sechste_section">
+<section class="section_6">
     <div class="container">
         <div class="row">
                 <div class="col-12">
@@ -287,7 +288,7 @@
     </div>
 </section>
 
-<section class="siebte_section">
+<section class="section_7">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -309,7 +310,7 @@
     </div>
 </section>
 
-<section class="achte_section">
+<section class="section_8">
     <div class="container text-center">
         <div class="row">
             <div class="col-12">
@@ -363,46 +364,46 @@
     </form>
 </section>
 
-<section class="neunte_section">
+<section class="section_9">
     <div class="conatiner">
         <div class="row">
             <div class="col-12">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (47).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 links oben1" src="<?php bloginfo('template_url'); ?>/img/vt (47).png">
                         </div>
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (32).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (32).png">
                         </div>
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (30).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (30).png">
                         </div>
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (44).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (33).png">
                         </div>
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (43).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (35).png">
                         </div>
-                        <div class="col-md-2 abstand">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt (42).png">
+                        <div class="col-md-2 abstand oben1">
+                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (38).png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
-                        <div class="col-md-2 abstand">
+                        <div class="col-md-2 abstand oben1">
                             <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
                         </div>
                     </div>
@@ -410,4 +411,158 @@
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<section class="section_10">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <button class="btn button-more" type="button">Follow us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_11">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <p>OUR CLIENTS</p>
+                    <p>We love our clients and we are proud of them</p>
+                    <p>They are now a part of our family</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/a (1).png">
+            </div>
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/b (1).png">
+            </div>
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/c (1).png">
+            </div>
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/d (1).png">
+            </div>
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/e (1).png">
+            </div>
+            <div class="col-md-2">
+                <img src="<?php bloginfo('template_url'); ?>/img/f (1).png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_12">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <p>NUMBERS</p>
+                    <p>Some amazing things about us you should know</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center größer">
+                <p class="zahlen">12k</p>
+                <p>Theme Users</p>
+                <p class="kleiner">Lorem Impsum dolor sit amet,
+                consectetur apidiscing elit</p>
+            </div>
+            <div class="col-md-3 text-center größer">
+                <p class="zahlen">12k</p>
+                <p>Theme Users</p>
+                <p class="kleiner">Lorem Impsum dolor sit amet,
+                consectetur apidiscing elit</p>
+            </div>
+            <div class="col-md-3 text-center größer">
+                <p class="zahlen">12k</p>
+                <p>Theme Users</p>
+                <p class="kleiner">Lorem Impsum dolor sit amet,
+                consectetur apidiscing elit</p>
+            </div>
+            <div class="col-md-3 text-center größer">
+                <p class="zahlen">12k</p>
+                <p>Theme Users</p>
+                <p class="kleiner">Lorem Impsum dolor sit amet,
+                consectetur apidiscing elit</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_13">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">SELECT A PLAN</p>
+                <p class="text-center">No credit card required. Upgrade, downgrade, or cancel anytime.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 umriss">
+                <div class="kopf1 umriss"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                </div>
+            </div>
+            <div class="col-md-3 umriss">
+                <div class="kopf1 umriss"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                </div>
+            </div>
+            <div class="col-md-3 umriss">
+                <div class="kopf1 umriss"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                </div>
+            </div>
+            <div class="col-md-3 umriss">
+                <div class="kopf1 umriss"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                </div>
+            </div>
+</section>

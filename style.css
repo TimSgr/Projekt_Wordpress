@@ -32,7 +32,7 @@ p {
     font-size: 50px;
 }
 
-.erste_section {
+.section_1 {
     background-image:url("img/b.jpg");
     height: 976px;
     max-width: 1920px;
@@ -197,29 +197,29 @@ footer {
     position: absolute !important;
 }
 
-.dritte_section {
+.section_3 {
     padding-top:60px;
     margin-top: 50px;
     background-color: #f7f9f9;
     padding-bottom: 60px;
 }
 
-.vierte_section {
+.section_4 {
     padding-bottom: 90px;
     padding-top: 50px;
 }
 
-.fünfte_section {
+.section_5 {
     padding-top: 20px;
     background-color: honeydew;
     padding-bottom: 80px;
 }
 
-.sechste_section {
+.section_6 {
     padding-bottom: 60px;
 }
 
-.siebte_section {
+.section_7 {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -229,11 +229,54 @@ footer {
     background-color: rgb(240, 240, 240);
 }
 
-.achte_section {
+.section_8 {
     padding-bottom: 40px;
     padding-top: 40px;
+    margin-bottom: 30px;
 }
 
+.section_10 {
+    margin-top: 30px;
+    padding-top: 130px;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+    background-color: rgb(228, 228, 228);
+}
+
+.section_11 {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section_12 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.section_13 {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.zahlen {
+    color: #24dc97;
+    font-size: 30px !important;
+    margin-top: 25px;
+}
+
+.umriss {
+    border: 1px solid black;
+}
+
+.kopf1{
+    margin-right: -16px;
+    margin-left: -16px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
 
 .rand {
     /* border: 2px solid black; */
@@ -245,6 +288,14 @@ footer {
     transform: scale(1.2); 
  }
 
+.größer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.kleiner { 
+    font-size:16px;
+}
   
 .überschrift {
     font-size: 30px;
@@ -295,6 +346,10 @@ footer {
     font-size: 30px;
 }
 
+.zeilenhöhe {
+    line-height: 1.15;
+}
+
 i {
     border: solid white;
     border-width: 0 3px 3px 0;
@@ -305,9 +360,14 @@ i {
     margin-right: auto;
 }
 
+
 .logo111{
     width: 100%;
     height: 100%;
+}
+
+.logo6 {
+    margin-bottom: 10px;
 }
 
 .down {
@@ -359,4 +419,12 @@ i {
 
 .oben {
     margin-top:30px;
+}
+
+.links {
+    margin-left:20px;
+}
+
+.oben1 {
+    margin-top: -20px;
 }
