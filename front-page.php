@@ -41,8 +41,6 @@
             </div>
         </div>
     </div>
-
-
 </section>
 
 <section class="zweite_section" id="zweite_section">

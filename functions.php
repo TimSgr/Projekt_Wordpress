@@ -8,12 +8,3 @@ function your_theme_enqueue_scripts() {
     wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20120206', true );
 }
 add_action( 'wp_enqueue_scripts', 'your_theme_enqueue_scripts' );
-
-if ( function_exists('register_sidebar') )
-register_sidebar(array(
-  'name' => 'Sidebar rechts',
-));
-register_sidebar(array(
-  'name' => 'Sidebar links',
-));
-
