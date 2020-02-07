@@ -32,7 +32,7 @@
                     <button class="btn button-started">Get started</button>
 					<button class="btn button-more">Learn more</button>
                     
-                    <p class="zentrieren">
+                    <p class="text-center">
 						<a href="#zweite_section"> 
                             <i class="arrow down"></i>
                         </a>
@@ -47,24 +47,24 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="überschrift zentrieren">
+				<div class="überschrift text-center">
 					<p>OUR EXPERTISE</p>
 				</div>
-				<div class="description1 zentrieren">We create amazing digital experience and help our customers reach
+				<div class="description1 text-center">We create amazing digital experience and help our customers reach
 					<br>their goals 3x faster than our competitors.</div>
 			</div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm rand zentrieren anzeigen">
+            <div class="col-sm rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
                 <p>Websites</p>
                 <p>We create websites for</p>
                 <p>humans and humans create websites for us.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand zentrieren anzeigen">
+            <div class="col-sm rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
                 <p>Mobile</p>
                 <p>Enjoy a new mobile</p>
@@ -72,7 +72,7 @@
                 <p>support.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand zentrieren anzeigen">
+            <div class="col-sm rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
                 <p>Mobile</p>
                 <p>Enjoy a new mobile</p>
@@ -80,7 +80,7 @@
                 <p>support.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand zentrieren anzeigen">
+            <div class="col-sm rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
                 <p>Design & UX</p>
                 <p>We adjust each detail, so it fits</p>
@@ -165,7 +165,7 @@
         </div>
     </div>
 
-    <div class="zentrieren">
+    <div class="text-center">
         <button class="btn  button-load">Load more</button>
     </div>
 </section>
@@ -226,7 +226,7 @@
             </div>
         </div>
     </div>
-    <div class="zentrieren">
+    <div class="text-center">
         <button class="btn button-load1">Load more</button>
     </div>
 </section>
@@ -250,10 +250,10 @@
     <div class="container">
         <div class="row">
                 <div class="col-12">
-                    <div class="überschrift zentrieren">
+                    <div class="überschrift text-center">
                         <p>MEET THE TEAM</p>
                     </div>
-                    <div class="description1 zentrieren">
+                    <div class="description1 text-center">
                         Our team values more than big budgets.</p>
                         <p>We do our best to meet our customers expectations, always in time</p>
                     </div>
@@ -263,22 +263,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm zentrieren">
+            <div class="col-sm text-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-2.png" class="logo6 rounded-circle">
                 <p>Maria Brown</p>
                 <p>Founder & Creative Director</p>
             </div>
-            <div class="col-sm zentrieren">
+            <div class="col-sm text-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo6 rounded-circle">
                 <p>Lia Karolmozz</p>
                 <p>Development Officer</p>
             </div>
-            <div class="col-sm zentrieren">
+            <div class="col-sm text-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-4.png" class="logo6 rounded-circle">
                 <p>Amanda Ross</p>
                 <p>Design & Front-End</p>
             </div>
-            <div class="col-sm zentrieren">
+            <div class="col-sm text-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo6 rounded-circle">
                 <p>John Green</p>
                 <p>Founder & Creative Director</p>
@@ -310,7 +310,7 @@
 </section>
 
 <section class="achte_section">
-    <div class="container zentrieren">
+    <div class="container text-center">
         <div class="row">
             <div class="col-12">
                 <p class="text-center">
@@ -355,7 +355,7 @@
                         <textarea class="form-control" placeholder="Message"></textarea>
                     </div>
                 </div>
-                <div class="zentrieren">
+                <div class="text-center">
                     <button class="btn button-started">Send</button>
                 </div>
             </div>
