@@ -365,46 +365,25 @@
 </section>
 
 <section class="section_9">
-    <div class="conatiner">
+    <div class="text-center">
+        <p>CONTACT US</p>
+        <p>Please don't hestitate to contact us for more information.</p>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="container-fluid">
+            <div class="col-6 text-center">
+                
+            </div>
+            <div class="col-6">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 links oben1" src="<?php bloginfo('template_url'); ?>/img/vt (47).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (32).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (30).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (33).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (35).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111 oben1" src="<?php bloginfo('template_url'); ?>/img/vt (38).png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
-                        </div>
-                        <div class="col-md-2 abstand oben1">
-                            <img class="logo111" src="<?php bloginfo('template_url'); ?>/img/vt.png">
+                        <div class="col-7 hintergrund">
+                            <p><input class="form-control" placeholder="Name">
+                            <p><input class="form-control" placeholder="Email">
+                            <p><input class="form-control" placeholder="Phone">
+                            <p><input class="form-control" placeholder="Company">
+                            <p><textarea class="form-control" placeholder="Message"></textarea>
+                            <p><button class="btn button-started1">Send</button>
                         </div>
                     </div>
                 </div>
@@ -524,6 +503,7 @@
                     <p>Unlimited feature three</p>
                     <p>2x feature four</p>
                     <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss">
@@ -537,6 +517,7 @@
                     <p>Unlimited feature three</p>
                     <p>2x feature four</p>
                     <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss">
@@ -550,6 +531,7 @@
                     <p>Unlimited feature three</p>
                     <p>2x feature four</p>
                     <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss">
@@ -563,6 +545,10 @@
                     <p>Unlimited feature three</p>
                     <p>2x feature four</p>
                     <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
 </section>
+</body>
+<?php get_footer(); ?>
+</html>
