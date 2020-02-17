@@ -99,7 +99,7 @@
     </div>
     <div class="container-fluid oben">
         <div class="row">
-                <div class="col-4 abstand">
+                <div class="col-md-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
                         <div class="text-block1">
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 abstand">
+                <div class="col-md-4 abstand">
                     <div class="container abstand">        
                         <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
                         <div class="text-block1">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </div>            
-                <div class="col-4 abstand">
+                <div class="col-md-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
                         <div class="text-block1">
@@ -133,7 +133,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
                     <div class="text-block1">
@@ -143,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">        
                     <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
                     <div class="text-block1">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
             </div>            
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
                     <div class="text-block1">
@@ -180,7 +180,7 @@
     </p>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/01.png" class="logo3">
                     <div class="text-block">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/02.png" class="logo3">
                     <div class="text-block">
@@ -211,7 +211,7 @@
                   
                 </p>
             </div>
-            <div class="col-4 abstand">
+            <div class="col-md-4 abstand">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/03.jpg" class="logo3">
                     <div class="text-block">
