@@ -371,22 +371,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6 text-center">
-                
+            <div class="col-md-3">
+            
             </div>
-            <div class="col-6">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-7 hintergrund">
-                            <p><input class="form-control" placeholder="Name">
-                            <p><input class="form-control" placeholder="Email">
-                            <p><input class="form-control" placeholder="Phone">
-                            <p><input class="form-control" placeholder="Company">
-                            <p><textarea class="form-control" placeholder="Message"></textarea>
-                            <p><button class="btn button-started1">Send</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-3 text-center">
+                Text
+            </div>
+            <div class="col-md-3 hintergrund">
+                <p><input class="form-control" placeholder="Name">
+                <p><input class="form-control" placeholder="Email">
+                <p><input class="form-control" placeholder="Phone">
+                <p><input class="form-control" placeholder="Company">
+                <p><textarea class="form-control" placeholder="Message"></textarea>
+                <p><button class="btn button-started1">Send</button>
+            </div>
+            <div class="col-md-3">
+            
             </div>
         </div>
     </div>
