@@ -13,9 +13,8 @@ a {
 }
 
 p {
-    font: 20px Sans-serif;
+    font-family: sans-serif;
     margin:0px;
-    font-weight: lighter !important;
 }
 
 .logo {
@@ -105,6 +104,11 @@ h1 {
     color: white !important;
 }
 
+.button-more1 {
+    background-color: #455d6a !important;
+    color: white !important;
+}
+
 .button-load {
     margin-top: 30px;
     width: 171px;
@@ -155,8 +159,9 @@ aside {
 
 footer {
     background-color:#283a44;
-    padding:1em;
+    padding-top: 30px;
     color:white;
+    font: 11px Sans-serif !important;
 }
 
 @media screen and (min-width:600px) {
@@ -315,10 +320,12 @@ footer {
 .kleiner { 
     font-size:16px;
 }
+
+.klein {
+    font-size: 5px !important;
+}
   
 .reduzieren{
-    width: 187px !important;
-    height: 36px !important;
     background-color: #283a44 !important;
     border: 1px solid #24dc97 !important;
     color: #24dc97 !important;

@@ -371,22 +371,18 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-6">
             
             </div>
-            <div class="col-md-3 text-center">
-                Text
-            </div>
-            <div class="col-md-3 hintergrund">
-                <p><input class="form-control" placeholder="Name">
-                <p><input class="form-control" placeholder="Email">
-                <p><input class="form-control" placeholder="Phone">
-                <p><input class="form-control" placeholder="Company">
-                <p><textarea class="form-control" placeholder="Message"></textarea>
-                <p><button class="btn button-started1">Send</button>
-            </div>
-            <div class="col-md-3">
-            
+            <div class="col-12 col-sm-6">
+                <form class="hintergrund">
+                    <p><input class="form-control" placeholder="Name">
+                    <p><input class="form-control" placeholder="Email">
+                    <p><input class="form-control" placeholder="Phone">
+                    <p><input class="form-control" placeholder="Company">
+                    <p><textarea class="form-control" placeholder="Message"></textarea>
+                    <p><button class="btn button-started1">Send</button>
+                </form>
             </div>
         </div>
     </div>
@@ -418,22 +414,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/a (1).png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/b (1).png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/c (1).png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/d (1).png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/e (1).png">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/f (1).png">
             </div>
         </div>
