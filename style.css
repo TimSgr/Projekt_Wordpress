@@ -315,7 +315,25 @@ footer {
 }
 
 .umriss {
-    border: 1px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+.umriss-l-r{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.umriss-r{
+    border-left: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.umriss-u {
+    border-bottom: 0.5px solid black;
 }
 
 .kopf1{

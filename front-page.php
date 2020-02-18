@@ -494,7 +494,35 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-3 umriss">
-                <div class="kopf1 umriss"> 
+                <div class="kopf1 umriss-u"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
+                </div>
+            </div>
+            <div class="col-md-3 umriss-l-r">
+                <div class="kopf1 umriss-l-r"> 
+                    <p>Basic</p>
+                    <p>$19/mo</p>
+                </div>
+                <div class="informations">
+                    <p>Free feature one</p>
+                    <p>Unlimited feature two</p>
+                    <p>Unlimited feature three</p>
+                    <p>2x feature four</p>
+                    <p>100x feature five</p>
+                    <p><input type="button" class="btn button-load" value="select">
+                </div>
+            </div>
+            <div class="col-md-3 umriss-r">
+                <div class="kopf1 umriss-u"> 
                     <p>Basic</p>
                     <p>$19/mo</p>
                 </div>
@@ -508,35 +536,7 @@
                 </div>
             </div>
             <div class="col-md-3 umriss">
-                <div class="kopf1 umriss"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
-                </div>
-                <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
-                </div>
-            </div>
-            <div class="col-md-3 umriss">
-                <div class="kopf1 umriss"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
-                </div>
-                <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
-                </div>
-            </div>
-            <div class="col-md-3 umriss">
-                <div class="kopf1 umriss"> 
+                <div class="kopf1 umriss-u"> 
                     <p>Basic</p>
                     <p>$19/mo</p>
                 </div>
