@@ -41,6 +41,21 @@ p {
     /* margin-top: -32px !important; */
 }
 
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 .section_blog_1 {
     background-image:url("img/b.jpg");
     height: 444px;

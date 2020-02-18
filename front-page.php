@@ -39,7 +39,7 @@
     </div>
     <p class="text-center">
         <a href="#section_2"> 
-            <button class="button">Nach unten</button>
+            <i class="arrow down"></i>
         </a>
     </p>
 </section>
@@ -549,6 +549,5 @@
                 </div>
             </div>
 </section>
-</body>
 <?php get_footer(); ?>
-</html>
+
