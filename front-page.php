@@ -23,7 +23,7 @@
                         </div>
 					</nav>
 				</header>
-                <div class="col-md-5">
+                <div class="col-md-7">
                     <p class="description">A marketing and brand</p>
                     <p class="description11">creation agency.</p>
                         
