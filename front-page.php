@@ -265,22 +265,23 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-2.png" class="logo6 rounded-circle">
                 <p>Maria Brown</p>
                 <p>Founder & Creative Director</p>
             </div>
-            <div class="col-sm text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung" id="linkes_float">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo6 rounded-circle">
                 <p>Lia Karolmozz</p>
                 <p>Development Officer</p>
             </div>
-            <div class="col-sm text-center">
+
+            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung"  id="verschieben">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-4.png" class="logo6 rounded-circle">
                 <p>Amanda Ross</p>
                 <p>Design & Front-End</p>
             </div>
-            <div class="col-sm text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung">
                 <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo6 rounded-circle">
                 <p>John Green</p>
                 <p>Founder & Creative Director</p>
@@ -418,22 +419,22 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/a (1).png">
             </div>
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/b (1).png">
             </div>
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/c (1).png">
             </div>
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/d (1).png">
             </div>
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/e (1).png">
             </div>
-            <div class="col-md-2 d-flex justify-content-center">
+            <div class="col-12 col-sm-4 col-md-4 d-flex justify-content-center">
                 <img src="<?php bloginfo('template_url'); ?>/img/f (1).png">
             </div>
         </div>
@@ -492,8 +493,8 @@
     </div>
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-3 umriss">
-                <div class="kopf1 umriss-u"> 
+            <div class="col-md-3 umriss" id="oben">
+                <div class="kopf1 umriss-u" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
                 </div>
@@ -503,11 +504,11 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss-l-r">
-                <div class="kopf1 umriss-l-r hellgrau"> 
+            <div class="col-md-3 umriss-l-r" id="oben">
+                <div class="kopf1 umriss-l-r hellgrau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
                 </div>
@@ -517,11 +518,11 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss-r">
-                <div class="kopf1 umriss-u grau"> 
+            <div class="col-md-3 umriss-r" id="oben">
+                <div class="kopf1 umriss-u grau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
                 </div>
@@ -531,11 +532,11 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss">
-                <div class="kopf1 umriss-u dunkelgrau"> 
+            <div class="col-md-3 umriss" id="oben">
+                <div class="kopf1 umriss-u dunkelgrau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
                 </div>
@@ -545,7 +546,7 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
 </section>
