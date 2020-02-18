@@ -23,21 +23,23 @@
                         </div>
 					</nav>
 				</header>
-				<p class="description">A marketing and brand</p>
-                <p class="description11">creation agency.</p>
-                    
-                    <p class="description_one">We don't just make logos, we make design & content</p>
-					<p class="description_one">choices that disrupt the market from the inside out.</p>
-                    
-                    <button class="btn button-started">Get started</button>
-					<button class="btn button-more">Learn more</button>
-                    
-                    <p class="text-center">
-						<a href="#section_2"> 
-                            <i class="arrow down"></i>
-                        </a>
-					</p>
-				</p>
+                <div class="col-md-5">
+                    <p class="description">A marketing and brand</p>
+                    <p class="description11">creation agency.</p>
+                        
+                        <p class="description_one">We don't just make logos, we make design & content</p>
+                        <p class="description_one">choices that disrupt the market from the inside out.</p>
+                        
+                        <button class="btn button-started">Get started</button>
+                        <button class="btn button-more">Learn more</button>
+                        
+                        <p class="text-center">
+                            <a href="#section_2"> 
+                                <i class="arrow down"></i>
+                            </a>
+                        </p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -57,7 +59,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm rand text-center anzeigen">
+            <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
                 <p>Websites</p>
                 <p>We create websites for</p>
@@ -65,7 +67,7 @@
                 <p>websites for us.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand text-center anzeigen">
+            <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
                 <p>Mobile</p>
                 <p>Enjoy a new mobile</p>
@@ -73,7 +75,7 @@
                 <p>support.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand text-center anzeigen">
+            <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
                 <p>Mobile</p>
                 <p>Enjoy a new mobile</p>
@@ -81,7 +83,7 @@
                 <p>support.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
             </div>
-            <div class="col-sm rand text-center anzeigen">
+            <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
                 <p>Design & UX</p>
                 <p>We adjust each detail, so it fits</p>
@@ -371,8 +373,11 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-            
+            <div class="col-12 col-sm-6">
+                <div class="speech bottom">Headquaters
+                    <p>1 Main St. SE #400 </p>
+                    <p>Mineeapolis, MN 55414, United States</p>
+                </div>
             </div>
             <div class="col-12 col-sm-6">
                 <form class="hintergrund">
