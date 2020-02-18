@@ -41,6 +41,26 @@ p {
     /* margin-top: -32px !important; */
 }
 
+.section_blog_1 {
+    background-image:url("img/b.jpg");
+    height: 444px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* margin-top: -32px !important; */
+}
+
+.section_blog_2 {
+    background-color: lightcyan;
+    height: 1169px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    /* margin-top: -32px !important; */
+}
+
 .description {
     font-size: 48px;
     font-weight: bold;
@@ -308,10 +328,23 @@ footer {
     background-color: rgb(223, 223, 223, 0.5) !important;
 }
 
+select{
+    font-family: FontAwesome, sans-serif;
+}
+
 .zahlen {
     color: #24dc97;
     font-size: 30px !important;
     margin-top: 25px;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.green{
+    color: #24dc97;
+    font-weight:bold;
 }
 
 .umriss {
@@ -426,15 +459,6 @@ footer {
     line-height: 1.15;
 }
 
-i {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 .logo111{
@@ -444,11 +468,6 @@ i {
 
 .logo6 {
     margin-bottom: 10px;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
 }
 
 .text-block {

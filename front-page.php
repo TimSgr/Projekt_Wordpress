@@ -11,7 +11,7 @@
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item"> <a class="nav-link" href="#"> Home </a>
 								</li>
-								<li class="nav-item"> <a class="nav-link" href="#"> Blog </a>
+								<li class="nav-item"> <a class="nav-link" href="page-108.php"> Blog </a>
 								</li>
 								<li class="nav-item"> <a class="nav-link" href="#"> Info </a>
 								</li>
@@ -33,16 +33,15 @@
                         <button class="btn button-started">Get started</button>
                         <button class="btn button-more">Learn more</button>
                         
-                        <p class="text-center">
-                            <a href="#section_2"> 
-                                <i class="arrow down"></i>
-                            </a>
-                        </p>
-                    </p>
                 </div>
             </div>
         </div>
     </div>
+    <p class="text-center">
+        <a href="#section_2"> 
+            <button class="button">Nach unten</button>
+        </a>
+    </p>
 </section>
 
 <section class="section_2" id="section_2">
@@ -495,57 +494,57 @@
         <div class="row text-center">
             <div class="col-md-3 umriss">
                 <div class="kopf1 umriss-u"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
+                    <p><span class="bold">Basic</span></p>
+                    <p class="green">$19/mo</p>
                 </div>
                 <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
+                <p><span class="bold">Free</span> feature one</p>
+                    <p><span class="bold">Unlimited</span> feature two</p>
+                    <p><span class="bold">Unlimited</span> feature three</p>
+                    <p><span class="bold">2x</span> feature four</p>
+                    <p><span class="bold">100x</span> feature five</p>
                     <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss-l-r">
-                <div class="kopf1 umriss-l-r"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
+                <div class="kopf1 umriss-l-r hellgrau"> 
+                    <p><span class="bold">Basic</span></p>
+                    <p class="green">$19/mo</p>
                 </div>
                 <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
+                <p><span class="bold">Free</span> feature one</p>
+                    <p><span class="bold">Unlimited</span> feature two</p>
+                    <p><span class="bold">Unlimited</span> feature three</p>
+                    <p><span class="bold">2x</span> feature four</p>
+                    <p><span class="bold">100x</span> feature five</p>
                     <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss-r">
-                <div class="kopf1 umriss-u"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
+                <div class="kopf1 umriss-u grau"> 
+                    <p><span class="bold">Basic</span></p>
+                    <p class="green">$19/mo</p>
                 </div>
                 <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
+                <p><span class="bold">Free</span> feature one</p>
+                    <p><span class="bold">Unlimited</span> feature two</p>
+                    <p><span class="bold">Unlimited</span> feature three</p>
+                    <p><span class="bold">2x</span> feature four</p>
+                    <p><span class="bold">100x</span> feature five</p>
                     <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>
             <div class="col-md-3 umriss">
-                <div class="kopf1 umriss-u"> 
-                    <p>Basic</p>
-                    <p>$19/mo</p>
+                <div class="kopf1 umriss-u dunkelgrau"> 
+                    <p><span class="bold">Basic</span></p>
+                    <p class="green">$19/mo</p>
                 </div>
                 <div class="informations">
-                    <p>Free feature one</p>
-                    <p>Unlimited feature two</p>
-                    <p>Unlimited feature three</p>
-                    <p>2x feature four</p>
-                    <p>100x feature five</p>
+                    <p><span class="bold">Free</span> feature one</p>
+                    <p><span class="bold">Unlimited</span> feature two</p>
+                    <p><span class="bold">Unlimited</span> feature three</p>
+                    <p><span class="bold">2x</span> feature four</p>
+                    <p><span class="bold">100x</span> feature five</p>
                     <p><input type="button" class="btn button-load" value="select">
                 </div>
             </div>

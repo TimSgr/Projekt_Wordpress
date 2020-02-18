@@ -7,8 +7,8 @@
                     <p>INFO@STACKFUEL.COM</p>
                     <div class="form-group">
                         <select class="form-control reduzieren" id="auswahl">
-                            <option>ENGLISH</option>
-                            <option>DEUTSCH</option>
+                            <option>🌍 ENGLISH</option>
+                            <option>🌍 DEUTSCH</option>
                         </select>
                     </div>
                 </div>
@@ -42,5 +42,3 @@
     </div>
     <?php wp_footer(); ?>
 </footer>
-</body>
-</html>
