@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"> 
     <link rel="stylesheet" href="css/gallery.theme.css">
     <link rel="stylesheet" href="css/gallery.min.css">   
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>

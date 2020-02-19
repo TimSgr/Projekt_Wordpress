@@ -26,7 +26,6 @@
                 <div class="col-md-12 col-sm-12 col-lg-7">
                     <p class="description">A marketing and brand</p>
                     <p class="description11">creation agency.</p>
-                        
                         <p class="description_one">We don't just make logos, we make design & content</p>
                         <p class="description_one">choices that disrupt the market from the inside out.</p>
                         
@@ -66,7 +65,7 @@
         <div class="row">
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Website_logo.png" class="logo1 hiding_img">
-                <p>Websites</p>
+                <p class="oben3">Websites</p>
                 <p>We create websites for</p>
                 <p>humans and humans create 
                 <p>websites for us.</p>
@@ -74,7 +73,7 @@
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
-                <p>Mobile</p>
+                <p class="oben3">Mobile</p>
                 <p>Enjoy a new mobile</p>
                 <p>experience with respositive</p>
                 <p>support.</p>
@@ -82,7 +81,7 @@
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
-                <p>Mobile</p>
+                <p class="oben3">Mobile</p>
                 <p>Enjoy a new mobile</p>
                 <p>experience with respositive</p>
                 <p>support.</p>
@@ -90,7 +89,7 @@
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
-                <p>Design & UX</p>
+                <p class="oben3">Design & UX</p>
                 <p>We adjust each detail, so it fits</p>
                 <p>your expectations.</p>
                 <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>

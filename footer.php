@@ -3,7 +3,7 @@
         <div class="row">
                 <div class="col-md-3">    
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_white.svg" class="logo">
-                    <p>P:(800)997-9774</p>
+                    <p class="oben3">P:(800)997-9774</p>
                     <p>INFO@STACKFUEL.COM</p>
                     <div class="form-group">
                         <select class="form-control reduzieren" id="auswahl">
