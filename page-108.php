@@ -57,12 +57,12 @@
             </div>
             <div class="col-md-4 ">
                 <div class="menu_blog col-md-6">
-                    <p class="umriss menu_11">&nbsp; Categories</p>
-                    <p class="umriss menu_11">&nbsp; News</p>
-                    <p class="umriss menu_11">&nbsp; Strategy</p>
-                    <p class="umriss menu_11">&nbsp; Brand</p>
-                    <p class="umriss menu_11">&nbsp; Site</p>
-                    <p class="umriss menu_11">&nbsp; Internal</p>
+                    <p class=" menu_11">&nbsp; Categories</p>
+                    <p class=" menu_11">&nbsp; News</p>
+                    <p class=" menu_11">&nbsp; Strategy</p>
+                    <p class=" menu_11">&nbsp; Brand</p>
+                    <p class=" menu_11">&nbsp; Site</p>
+                    <p class=" menu_11">&nbsp; Internal</p>
                 </div>
             </div>
                 <div class="col-md-8 beitrag">
