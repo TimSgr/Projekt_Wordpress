@@ -32,10 +32,16 @@
                         
                         <button class="btn button-started">Get started</button>
                         <button class="btn button-more">Learn more</button>
-                        
+
                 </div>
             </div>
         </div>
+    </div>
+    <div class="text-center oben2">
+            <span>•</span>
+            <span>•</span>
+            <span>•</span>
+            <span>•</span>
     </div>
     <p class="text-center">
         <a href="#section_2"> 
