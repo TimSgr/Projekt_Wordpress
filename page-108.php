@@ -33,7 +33,7 @@
 <section class="section_blog_2">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 umriss">
+            <div class="col-md-8 ">
                 <p class="überschrift1">Can you change the world on your own?</p>
                 <p class="autor_information">
                     <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo7 rounded-circle">
@@ -55,7 +55,7 @@
                         <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
                 </div>
             </div>
-            <div class="col-md-4 umriss">
+            <div class="col-md-4 ">
                 <span class="menu_blog">
                     <p>Categories</p>
                     <p>News</p>
@@ -82,9 +82,7 @@
                     </p>
                         <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
                 </div>
-            
             </div>
-
         </div>
     </div>
 </section>
