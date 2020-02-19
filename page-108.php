@@ -43,46 +43,47 @@
                     <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
                     25
                 </p>
-                <div class="col-12 my_div">
+                <div class="col-md-12 my_div">
                     <!-- Hier sieht man ein Bild -->
                 </div>
+                <div class="beitrag">
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                    </p>
+                        <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
+                </div>
             </div>
-                        <div class="col-md-4 umriss">
-                            <span class="menu_blog">
-                                <p>Categories</p>
-                                <p>News</p>
-                                <p>Strategy</p>
-                                <p>Brand</p>
-                                <p>Site</p>
-                                <p>Internal</p>
-                            </span>
-                        </div>
-            <div class="beitrag">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                </p>
-                    <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
+            <div class="col-md-4 umriss">
+                <span class="menu_blog">
+                    <p>Categories</p>
+                    <p>News</p>
+                    <p>Strategy</p>
+                    <p>Brand</p>
+                    <p>Site</p>
+                    <p>Internal</p>
+                </span>
             </div>
-            <div class="col-md-8 beitrag">
-                <p class="überschrift1">Dropbox made some changes</p>
-                <p class="autor_information">
-                    <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo7 rounded-circle">
-                    by John Brown  
-                    <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
-                    2 April, 2014
-                    <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
-                    25
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                </p>
-                    <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
-            </div>
+                <div class="col-md-12 beitrag">
+                    <p class="überschrift1">Dropbox made some changes</p>
+                    <p class="autor_information">
+                        <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo7 rounded-circle">
+                        by John Brown  
+                        <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
+                        2 April, 2014
+                        <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
+                        25
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                    </p>
+                        <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
+                </div>
             
+            </div>
 
         </div>
     </div>
