@@ -65,7 +65,7 @@
                     <p>Internal</p>
                 </span>
             </div>
-                <div class="col-md-12 beitrag">
+                <div class="col-md-8 beitrag">
                     <p class="überschrift1">Dropbox made some changes</p>
                     <p class="autor_information">
                         <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo7 rounded-circle">
