@@ -16,7 +16,7 @@
 								<li class="nav-item"> <a class="nav-link" href="#"> Info </a>
 								</li>
                             </ul>
-                            P:(800)997-9714 &nbsp;
+                            P:(800) 997-9714 &nbsp;
 							<a href="#">
 								<button class="btn button-start">START A PROJECT</button>
                             </a>
