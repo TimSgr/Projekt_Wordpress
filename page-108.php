@@ -10,7 +10,7 @@
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item"> <a class="nav-link" href="#"> Home </a>
 								</li>
-								<li class="nav-item"> <a class="nav-link" href="page-108.php"> Blog </a>
+								<li class="nav-item"> <a class="nav-link" href="?page_id=108.php"> Blog </a>
 								</li>
 								<li class="nav-item"> <a class="nav-link" href="#"> Info </a>
 								</li>
@@ -34,11 +34,31 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 umriss">
-            Dies ist ein Text
+                <p class="überschrift1">Can you change the world on your own</p>
+                <p class="autor_information">
+                    <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo7 rounded-circle">
+                    by John Brown  
+                    <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
+                    2 April, 2014
+                    <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
+                    25
+                </p>
             </div>
             <div class="col-md-4 umriss">
-            Und das auch
+                Und das auch
             </div>
+            <div class="col-md-8 my_div">
+                <!-- Hier sieht man ein Bild -->
+            </div>
+            <div class="col-md-8 umriss">
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                </p>
+                    <a class="read_more" href="#"><p class="continue"> Continue reading <span class="green"> > </span></a>
+            </div>
+
         </div>
     </div>
 </section>

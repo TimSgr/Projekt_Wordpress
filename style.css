@@ -9,7 +9,7 @@
 }
 
 a {
-    color:white;
+    color:white !important;
 }
 
 p {
@@ -20,6 +20,15 @@ p {
 .logo {
     height:20px;
     height:20px;
+}
+
+.read_more{
+    color: black !important;
+}
+
+.logo7{
+    height:42px;
+    width: 42px;
 }
 
 .unsichtbar {
@@ -231,58 +240,42 @@ footer {
     }
 }
 
-@media only screen and (min-width: 769px){
-    .gap{
-        display:none;
+@media (min-width: 768px) and (max-width:1000px){
+    
+    .umriss-mobile {
+        border-bottom: 0px solid black !important;
+        border-right: 0.5px solid black !important;
+    }
+    .umriss-mobile-unten {
+        border-bottom: 0px solid black !important;
     }
 
 }
     
-    @media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
 
     #verkleinern {
         zoom: 0.8;
     }
 }
 
-@media screen and (min-width:600px) {
-    
-    /* .site {
-        max-width: 1000px;
-        margin:0 auto;
-    }
-     */
-
-    aside {
-        width:36%;
-        float:right;
-    }
-    
-    .latest-posts {
-        clear:both;
-    }
-    
-    .latest-posts article {
-        width:33.333%;
-        float:left;
-    }
-    
-    footer {
-        clear:both;
-    }
-    
-
-
-}
 
 .hellgrau{
     border-top: 0px !important;
 }
 
+.green {
+    color: green;
+    
+}
+
 .under {
     color:green;
     margin-top: 25px;
+}
 
+.continue {
+    font-size: 13px;
 }
 
 .kopf {
@@ -442,7 +435,15 @@ select{
 .klein {
     font-size: 5px !important;
 }
+
   
+.my_div{
+    height: 330px; 
+    width: 740px;
+    background: url("img/02.png") no-repeat center center;
+    background-size: cover;
+}
+
 .reduzieren{
     background-color: #283a44 !important;
     border: 1px solid #24dc97 !important;
@@ -454,6 +455,12 @@ select{
     font-size: 30px;
     font-weight: bolder;
     padding-top: 96px;
+}
+
+.überschrift1{
+    font-size: 22px;
+    padding-top: 40px;
+    font-weight: bold;
 }
 
 .description_one {

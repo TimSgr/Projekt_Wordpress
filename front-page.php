@@ -11,7 +11,7 @@
 							<ul class="navbar-nav mr-auto">
 								<li class="nav-item"> <a class="nav-link" href="#"> Home </a>
 								</li>
-								<li class="nav-item"> <a class="nav-link" href="page-108.php"> Blog </a>
+								<li class="nav-item"> <a class="nav-link" href="?page_id=108.php"> Blog </a>
 								</li>
 								<li class="nav-item"> <a class="nav-link" href="#"> Info </a>
 								</li>
@@ -23,7 +23,7 @@
                         </div>
 					</nav>
 				</header>
-                <div class="col-md-7">
+                <div class="col-md-12 col-sm-12 col-lg-7">
                     <p class="description">A marketing and brand</p>
                     <p class="description11">creation agency.</p>
                         
@@ -100,7 +100,7 @@
     </div>
     <div class="container-fluid oben">
         <div class="row">
-                <div class="col-md-4 abstand">
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
                         <div class="text-block1">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 abstand">
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
                     <div class="container abstand">        
                         <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
                         <div class="text-block1">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>            
-                <div class="col-md-4 abstand">
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
                         <div class="text-block1">
@@ -130,42 +130,38 @@
                         </div>
                     </div>
                 </div>    
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 abstand">
-                <div class="container abstand">
-                    <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
-                    <div class="text-block1">
-                        <h4>Encourage Others Re-Work </h4>
-                        <p>MOBILE
-                        </p>
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
+                    <div class="container abstand">
+                        <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
+                        <div class="text-block1">
+                            <h4>Encourage Others Re-Work </h4>
+                            <p>MOBILE
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 abstand">
-                <div class="container abstand">        
-                    <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
-                    <div class="text-block1">
-                        <h4>  </h4>
-                        <p>
-                        </p>
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
+                    <div class="container abstand">        
+                        <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
+                        <div class="text-block1">
+                            <h4>  </h4>
+                            <p>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </div>            
-            <div class="col-md-4 abstand">
-                <div class="container abstand">
-                    <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
-                    <div class="text-block1">
-                        <h4>More about less </h4>
-                        <p>MOBILE
-                        </p>
+                </div>            
+                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
+                    <div class="container abstand">
+                        <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
+                        <div class="text-block1">
+                            <h4>More about less </h4>
+                            <p>MOBILE
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="text-center">
         <button class="btn  button-load">Load more</button>
@@ -493,7 +489,7 @@
     </div>
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-3 umriss" id="oben">
+            <div class="col-md-6 col-lg-3 umriss umriss-mobile-unten" id="oben">
                 <div class="kopf1 umriss-u" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
@@ -507,7 +503,7 @@
                     <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss-l-r" id="oben">
+            <div class="col-md-6 col-lg-3 umriss-l-r umriss-mobile" id="oben">
                 <div class="kopf1 umriss-l-r hellgrau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
@@ -521,7 +517,7 @@
                     <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss-r" id="oben">
+            <div class="col-md-6 col-lg-3 umriss-r" id="oben">
                 <div class="kopf1 umriss-u grau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
@@ -535,7 +531,7 @@
                     <p><input type="button" class="btn button-load" value="select" id="verkleinern">
                 </div>
             </div>
-            <div class="col-md-3 umriss" id="oben">
+            <div class="col-md-6 col-lg-3 umriss" id="oben">
                 <div class="kopf1 umriss-u dunkelgrau" id="oben"> 
                     <p><span class="bold">Basic</span></p>
                     <p class="green">$19/mo</p>
