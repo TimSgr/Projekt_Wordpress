@@ -331,36 +331,38 @@
     </div>
     <form>
         <div class="container">
-            <div class="col-12">
-                <div class="form-row">
-                    <div class="col-md-3">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
                     </div>
-                    <div class="form-group col-md-3">
-                        <input type="name" class="form-control" placeholder="Name" required>
+                    <div class="form-row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="phone" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input class="form-control" placeholder="Company">
+                        </div>
                     </div>
-                    <div class="form-group col-md-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                    <div class="form-row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <textarea class="form-control" placeholder="Message"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-3">
+                    <div class="text-center">
+                        <button class="btn button-started">Send</button>
                     </div>
-                    <div class="form-group col-md-3">
-                        <input type="phone" class="form-control" placeholder="Phone">
-                    </div>
-                    <div class="form-group col-md-3">
-                        <input class="form-control" placeholder="Company">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-3">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <textarea class="form-control" placeholder="Message"></textarea>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <button class="btn button-started">Send</button>
                 </div>
             </div>
         </div>

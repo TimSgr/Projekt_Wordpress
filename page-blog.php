@@ -79,6 +79,11 @@
                             </ul>
                         </div>
                     </nav>
+                    <nav class="navbar">
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="🔍Search" aria-label="Search">
+                        </form>
+                    </nav>
                 </div>
                 <div class="col-md-8 beitrag order-3" id="third">
                     <p class="heading1">Dropbox made some changes</p>

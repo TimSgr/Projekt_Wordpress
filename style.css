@@ -332,7 +332,7 @@ h1 {
 }
 
 .site-nav li{
-    margin-bottom: -18px;
+    margin-bottom: -22px;
 }
 
 
@@ -355,7 +355,7 @@ h1 {
 }
 
 .site-nav span {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.1);
     padding: 1em;
     display: block;
     text-decoration: none;
