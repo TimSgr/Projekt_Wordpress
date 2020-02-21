@@ -197,9 +197,9 @@
                 </div>
             </div>
             <div class="col-md-4 abstand">
-                <div class="container abstand ">
+                <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/02.png" class="logo3">
-                    <div class="text-block m-b-sm">
+                    <div class="text-block kasten">
                         <h4> Can you change the world on your </h4>
                         <p>
                             <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
@@ -213,7 +213,7 @@
                   
                 </p>
             </div>
-            <div class="col-md-4 abstand">
+            <div class="col-md-4 abstand nah">
                 <div class="container abstand">
                     <img src="<?php bloginfo('template_url'); ?>/img/03.jpg" class="logo3">
                     <div class="text-block">
