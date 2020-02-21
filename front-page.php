@@ -69,7 +69,7 @@
                 <p>We create websites for</p>
                 <p>humans and humans create 
                 <p>websites for us.</p>
-                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/></p>
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
@@ -77,7 +77,7 @@
                 <p>Enjoy a new mobile</p>
                 <p>experience with respositive</p>
                 <p>support.</p>
-                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/></p>
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/Mobile_logo.png" class="logo1 hiding_img">
@@ -85,14 +85,14 @@
                 <p>Enjoy a new mobile</p>
                 <p>experience with respositive</p>
                 <p>support.</p>
-                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/></p>
             </div>
             <div class="col-sm-3 rand text-center anzeigen">
                 <img src="<?php bloginfo('template_url'); ?>/img/directionsign_logo.png" class="logo1 hiding_img">
                 <p class="oben3">Design & UX</p>
                 <p>We adjust each detail, so it fits</p>
                 <p>your expectations.</p>
-                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/>
+                <p><input type="button" class="button_examples btn btn-light placeholder" value="Read More"/></p>
             </div>
         </div>
     </div>
@@ -110,8 +110,7 @@
                         <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
                         <div class="text-block1">
                             <h4>Digital menu </h4>
-                            <p>MOBILE
-                            </p>
+                            <p>MOBILE</p>
                         </div>
                     </div>
                 </div>
@@ -120,8 +119,7 @@
                         <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
                         <div class="text-block1">
                             <h4>M is for Meteor </h4>
-                            <p>MOBILE
-                            </p>
+                            <p>MOBILE</p>
                         </div>
                     </div>
                 </div>            
@@ -130,8 +128,7 @@
                         <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
                         <div class="text-block1">
                             <h4>Android Theme </h4>
-                            <p>MOBILE
-                            </p>
+                            <p>MOBILE</p>
                         </div>
                     </div>
                 </div>    
@@ -140,8 +137,7 @@
                         <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
                         <div class="text-block1">
                             <h4>Encourage Others Re-Work </h4>
-                            <p>MOBILE
-                            </p>
+                            <p>MOBILE</p>
                         </div>
                     </div>
                 </div>
@@ -149,9 +145,8 @@
                     <div class="container abstand">        
                         <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
                         <div class="text-block1">
-                            <h4>  </h4>
-                            <p>
-                            </p>
+                            <h4>--Text--</h4>
+                            <p>Mobile</p>
                         </div>
                     </div>
                 </div>            
@@ -159,9 +154,8 @@
                     <div class="container abstand">
                         <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
                         <div class="text-block1">
-                            <h4>More about less </h4>
-                            <p>MOBILE
-                            </p>
+                            <h4>More about less</h4>
+                            <p>MOBILE</p>
                         </div>
                     </div>
                 </div>
@@ -384,12 +378,12 @@
             </div>
             <div class="col-12 col-sm-6">
                 <form class="hintergrund">
-                    <p><input class="form-control" placeholder="Name">
-                    <p><input class="form-control" placeholder="Email">
-                    <p><input class="form-control" placeholder="Phone">
-                    <p><input class="form-control" placeholder="Company">
-                    <p><textarea class="form-control" placeholder="Message"></textarea>
-                    <p><button class="btn button-started1">Send</button>
+                    <p><input class="form-control" placeholder="Name"></p>
+                    <p><input class="form-control" placeholder="Email"></p>
+                    <p><input class="form-control" placeholder="Phone"></p>
+                    <p><input class="form-control" placeholder="Company"></p>
+                    <p><textarea class="form-control" placeholder="Message"></textarea></p>
+                    <p><button class="btn button-started1">Send</button></p>
                 </form>
             </div>
         </div>
@@ -507,7 +501,7 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern"></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 umriss-l-r umriss-mobile" id="oben">
@@ -521,7 +515,7 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern"></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 umriss-r" id="oben">
@@ -535,7 +529,7 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern"></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 umriss" id="oben">
@@ -549,7 +543,7 @@
                     <p><span class="bold">Unlimited</span> feature three</p>
                     <p><span class="bold">2x</span> feature four</p>
                     <p><span class="bold">100x</span> feature five</p>
-                    <p><input type="button" class="btn button-load" value="select" id="verkleinern">
+                    <p><input type="button" class="btn button-load" value="select" id="verkleinern"></p>
                 </div>
             </div>
 </section>
