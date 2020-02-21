@@ -106,11 +106,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center text-center next-prev-bar">
-                    <button class="btn">❮ Prev</button>
-                    <button class="btn">1</button>
+                    <button class="btn">❮</button>
+                    <button class="btn green-bg">1</button>
                     <button class="btn">2</button>
                     <button class="btn">3</button>
-                    <button class="btn">Next ❯</button>
+                    <button class="btn">❯</button>
                 </div>
             </div>
         </div>
