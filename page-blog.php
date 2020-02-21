@@ -58,8 +58,9 @@
                     <nav class="site-nav">
                         <div class="menu">
                             <ul>
-                                <li class="page_item page-item-102">&nbsp;<span> 📁 Categories</p></span>
-
+                                <li class="page_item page-item-102">&nbsp;
+                                    <span> 📁 Categories</span>
+                                </li>
                                 <li class="page_item page-item-104">&nbsp;
                                     <span> News ⑳</span>
                                 </li>
@@ -75,8 +76,9 @@
                                 <li class="page_item page-item-112">&nbsp;
                                     <span> Internal ⑳</span>
                                 </li>
-                        
+                            </ul>
                         </div>
+                    </nav>
                 </div>
                 <div class="col-md-8 beitrag order-3" id="third">
                     <p class="heading1">Dropbox made some changes</p>

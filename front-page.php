@@ -197,9 +197,9 @@
                 </div>
             </div>
             <div class="col-md-4 abstand">
-                <div class="container abstand">
+                <div class="container abstand ">
                     <img src="<?php bloginfo('template_url'); ?>/img/02.png" class="logo3">
-                    <div class="text-block">
+                    <div class="text-block m-b-sm">
                         <h4> Can you change the world on your </h4>
                         <p>
                             <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
@@ -257,7 +257,7 @@
                         <p>MEET THE TEAM</p>
                     </div>
                     <div class="description1 text-center">
-                        Our team values more than big budgets.</p>
+                        Our team values more than big budgets.
                         <p>We do our best to meet our customers expectations, always in time</p>
                     </div>
 

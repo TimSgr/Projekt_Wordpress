@@ -32,8 +32,8 @@
                             <div class="col-md-7 abstand">
                                 <p><input class="form-control" placeholder="✉️Email">
                             </div>
-                            <div class="col-md-5 abstand">
-                                <button type="button" class="btn button-more1">Subscribe</button>
+                            <div class="col-md-5 abstand mb-3">
+                                <button type="button" class="btn button-more1 ">Subscribe</button>
                             </div>
                         </div>
                     </div>
