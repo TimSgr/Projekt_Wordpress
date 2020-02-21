@@ -53,7 +53,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="überschrift text-center">
+				<div class="heading text-center">
 					<p>OUR EXPERTISE</p>
 				</div>
 				<div class="description1 text-center">We create amazing digital experience and help our customers reach
@@ -99,7 +99,7 @@
 </section>
 
 <section class="section_3">
-    <div class="überschrift">
+    <div class="heading">
         <p class="text-center">PORTFOLIO</p>
         <p class="text-center">Our philosophy and expertise are best represented by our work </p>
     </div>
@@ -237,7 +237,7 @@
 <section class="section_5">
     <div class="container">
         <div class="col-12 text-center">
-            <div class="überschrift">
+            <div class="heading">
                 <p>TESTMONIALS</p>
             </div>
             <p class="oben">"Can say about these guys only good works. It has been a pleasure</p>
@@ -253,7 +253,7 @@
     <div class="container">
         <div class="row">
                 <div class="col-12">
-                    <div class="überschrift text-center">
+                    <div class="heading text-center">
                         <p>MEET THE TEAM</p>
                     </div>
                     <div class="description1 text-center">

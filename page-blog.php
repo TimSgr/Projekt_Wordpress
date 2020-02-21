@@ -37,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-6 order-1" id="second">
-                    <p class="überschrift1">Can you change the world on your own?</p>
+                    <p class="heading1">Can you change the world on your own?</p>
                     <p class="autor_information">
                         <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo7 rounded-circle"> by John Brown
                         <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4"> 2 April, 2014
@@ -79,7 +79,7 @@
                         </div>
                 </div>
                 <div class="col-md-8 beitrag order-3" id="third">
-                    <p class="überschrift1">Dropbox made some changes</p>
+                    <p class="heading1">Dropbox made some changes</p>
                     <p class="autor_information">
                         <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo7 rounded-circle"> by John Brown
                         <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4"> 2 April, 2014
@@ -98,7 +98,7 @@
     <section class="section_blog_3">
         <div class="container">
             <div class="row">
-                <div class="col-12 justify-content-center text-center my_setting">
+                <div class="col-12 justify-content-center text-center next-prev-bar">
                     <button class="btn">❮ Prev</button>
                     <button class="btn">1</button>
                     <button class="btn">2</button>

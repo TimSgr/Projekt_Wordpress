@@ -187,49 +187,49 @@ h1 {
 }
 
 @media screen and (min-width: 300px) and (max-width:400px){
-    .my_setting{
+    .next-prev-bar{
         margin-top:850px;
     }
 }
 
 @media screen and (min-width:401) and (max-width: 450px) {
-    .my_setting{
+    .next-prev-bar{
         margin-top:800px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .my_setting{
+    .next-prev-bar{
         margin-top:800px;
     }
 }
 
 @media screen and (min-width: 451px) and (max-width:500px){
-    .my_setting{
+    .next-prev-bar{
         margin-top:700px;
     }
 }
 
 @media screen and (min-width: 501px) and (max-width: 600px) {
-    .my_setting{
+    .next-prev-bar{
         margin-top:600px;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width:650px){
-    .my_setting{
+    .next-prev-bar{
         margin-top:500px;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width:650px){
-    .my_setting{
+    .next-prev-bar{
         margin-top:400px;
     }
 }
 
 @media screen and (min-width: 651px) and (max-width:768px){
-    .my_setting{
+    .next-prev-bar{
         margin-top:300px;
     }
 }
@@ -574,13 +574,13 @@ select{
 }
 
 
-.überschrift {
+.heading {
     font-size: 30px;
     font-weight: bolder;
     padding-top: 96px;
 }
 
-.überschrift1{
+.heading1{
     font-size: 22px;
     padding-top: 40px;
     font-weight: bold;
@@ -711,7 +711,7 @@ select{
     margin-top: -60px;
 }
 
-.menu_blog {
+.next-prev-bar {
     margin-top: 40px;
     padding-bottom: 30px;
 }
