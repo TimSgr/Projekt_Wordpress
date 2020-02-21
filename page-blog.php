@@ -79,7 +79,7 @@
                             </ul>
                         </div>
                     </nav>
-                    <nav class="navbar">
+                    <nav class="navbar navbar-expand-sm">
                         <form class="form-inline">
                             <input class="form-control" type="search" placeholder="🔍Search" aria-label="Search">
                         </form>
