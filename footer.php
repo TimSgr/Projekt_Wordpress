@@ -30,7 +30,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 abstand">
-                                <p><input class="form-control" placeholder="✉️Email">
+                                <p><input class="my_email" placeholder="Email">
                             </div>
                             <div class="col-md-5 abstand mb-3">
                                 <button type="button" class="btn button-more1 ">Subscribe</button>
