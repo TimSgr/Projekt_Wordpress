@@ -37,7 +37,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 flex text-center">
+        <div class="col-md-12 d-flex text-center">
             <div class="loop">
                 <?php if ( have_posts() ) {?>
                     <?php while ( have_posts() ) { the_post(); ?>
