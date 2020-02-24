@@ -774,5 +774,6 @@ select{
 }
 
 img{
-    width: auto;
+    height: auto;
+    
 }
