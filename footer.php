@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 copyright">
-                © Stackfuel, Inc. <span class="privacy">Privacy Policy, Terms of Service
+                © <?php echo date('Y');?> Stackfuel, Inc. <span class="privacy">Privacy Policy, Terms of Service
             </div>
         </div>
     </div>

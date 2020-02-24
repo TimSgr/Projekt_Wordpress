@@ -8,3 +8,5 @@ function my_functions() {
     wp_enqueue_script( 'theme-script', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20120206', true );
 }
 add_action( 'wp_enqueue_scripts', 'my_functions' );
+
+add_action('after_setup_theme', 'testmonials');

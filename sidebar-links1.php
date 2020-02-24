@@ -1,3 +1,0 @@
-<aside class="links">
-
-</aside>

@@ -199,6 +199,7 @@ body{
     width: 42px;
 }
 
+
 /* @media screen and (max-width:1200px) {
     .nav-size{
         width: 30%;
@@ -213,11 +214,10 @@ body{
 
 /*Für Pfeil*/
 .arrow_down {
-    margin-top: 100px;
-    zoom: 1.5;
+    margin-top: 50px;
+    width: 5%; 
+    height: auto; 
 }
-
-
 
 
 .description {
@@ -444,8 +444,9 @@ header {
 
 article {
     padding: 1em;
-    background:#eee;
+    background:white;
     margin-bottom:1em;
+    color:black;
 }
 
 aside {
@@ -586,6 +587,7 @@ select{
 .rand:hover{
     background-color:#24dc97;
     transform: scale(1.2); 
+    line-height: 25px;
  }
 
 .größer {
@@ -685,6 +687,14 @@ select{
     background-color: rgba(0,0,0,0.4);
     font-size: 10px;
     font-family: open sans;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    .text-block{
+        width: 70%;
+    }
+
 }
 
 .text-block1 {
@@ -695,6 +705,7 @@ select{
     padding-right: 10px;
     background-color: rgba(0,0,0,0.4);
     font-size: 10px;
+    width: 100%;
     font-family: open sans;
 }
 
@@ -743,4 +754,25 @@ select{
 .next-prev-bar {
     margin-top: 40px;
     padding-bottom: 30px;
+}
+
+.posts{
+	display: flex;
+	flex-wrap: wrap;
+}
+.posts .post{
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.posts .post .title{
+	font-size: 20px;
+	margin: 0 0 15px 0;
+}
+.posts .post .img{
+    height: auto;
+}
+
+img{
+    width: auto;
 }
