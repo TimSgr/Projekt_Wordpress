@@ -44,7 +44,7 @@
     </div>
     <p class="text-center">
         <a href="#section_2"> 
-            <i class="arrow down"></i>
+            <img src="<?php bloginfo('template_url'); ?>/img/arrow_down.png" class="arrow_down">
         </a>
     </p>
 </section>
