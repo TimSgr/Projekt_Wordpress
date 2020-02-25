@@ -205,68 +205,6 @@
             </div>
         </div>
     </div>
-</section>
-
-
-
-
-
-<section class="section_4">
-    <p class="blog_absatz text-center">
-        BLOG
-    </p>
-    <p class="description22 text-center">
-        Some great marketing insights for you
-    </p>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 abstand">
-                <div class="container abstand">
-                    <img src="<?php bloginfo('template_url'); ?>/img/01.png" class="logo3">
-                    <div class="text-block">
-                        <h4> Can you change the world on your </h4>
-                        <p>
-                            <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
-                            2 April, 2014
-                            <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
-                            25
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 abstand">
-                <div class="container abstand">
-                    <img src="<?php bloginfo('template_url'); ?>/img/02.png" class="logo3">
-                    <div class="text-block kasten">
-                        <h4> Can you change the world on your </h4>
-                        <p>
-                            <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
-                            2 April, 2014
-                            <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
-                            25
-                        </p>
-                    </div>
-                </div>
-                <p>
-                  
-                </p>
-            </div>
-            <div class="col-md-4 abstand nah">
-                <div class="container abstand">
-                    <img src="<?php bloginfo('template_url'); ?>/img/03.jpg" class="logo3">
-                    <div class="text-block">
-                        <h4> Can you change the world on your </h4>
-                        <p>
-                            <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
-                            2 April, 2014
-                            <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
-                            25
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="text-center">
         <button class="btn button-load1">Load more</button>
     </div>

@@ -1,4 +1,5 @@
 <?php
+add_theme_support( 'post-thumbnails' );
 function my_functions() {
     // all styles
     wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.css', array(), 20141119 );
