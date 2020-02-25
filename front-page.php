@@ -106,60 +106,27 @@
     </div>
     <div class="container-fluid oben">
         <div class="row">
+
+                    <?php 
+                    
+                    $args = array(
+                        'post_type' => 'post',
+                        'posts_per_page' => '6',
+                        'category_name' => 'Portfolio'
+                    );
+                    
+                    $loop2 = new WP_Query($args);
+                        
+                    if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
+
                 <div class="col-md-6 col-sm-6 col-lg-4 abstand">
                     <div class="container abstand">
-                        <img src="<?php bloginfo('template_url'); ?>/img/22.jpg" class="logo2">
-                        <div class="text-block1">
-                            <h4>Digital menu </h4>
-                            <p>MOBILE</p>
-                        </div>
+                            <?php get_template_part('template_parts/content','portfolio');?>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
-                    <div class="container abstand">        
-                        <img src="<?php bloginfo('template_url'); ?>/img/55.png" class="logo2">
-                        <div class="text-block1">
-                            <h4>M is for Meteor </h4>
-                            <p>MOBILE</p>
-                        </div>
-                    </div>
-                </div>            
-                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
-                    <div class="container abstand">
-                        <img src="<?php bloginfo('template_url'); ?>/img/44.png" class="logo2">
-                        <div class="text-block1">
-                            <h4>Android Theme </h4>
-                            <p>MOBILE</p>
-                        </div>
-                    </div>
-                </div>    
-                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
-                    <div class="container abstand">
-                        <img src="<?php bloginfo('template_url'); ?>/img/33.jpg" class="logo2">
-                        <div class="text-block1">
-                            <h4>Encourage Others Re-Work </h4>
-                            <p>MOBILE</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
-                    <div class="container abstand">        
-                        <img src="<?php bloginfo('template_url'); ?>/img/11.jpg" class="logo2">
-                        <div class="text-block1">
-                            <h4>--Text--</h4>
-                            <p>Mobile</p>
-                        </div>
-                    </div>
-                </div>            
-                <div class="col-md-6 col-sm-6 col-lg-4 abstand">
-                    <div class="container abstand">
-                        <img src="<?php bloginfo('template_url'); ?>/img/66.png" class="logo2">
-                        <div class="text-block1">
-                            <h4>More about less</h4>
-                            <p>MOBILE</p>
-                        </div>
-                    </div>
-                </div>
+                <?php endwhile; else : ?>
+                        <?php get_template_part('template_parts/content','error');?>
+                <?php endif; wp_reset_postdata(); ?>
             </div>
         </div>
 
@@ -171,7 +138,7 @@
 
 
 <section class="section_random">
-<p class="blog_absatz text-center">
+    <p class="blog_absatz text-center">
         BLOG
     </p>
     <p class="description22 text-center">
@@ -183,8 +150,9 @@
                 <?php 
                 
                 $args = array(
-                    post_type => 'post',
-                    posts_per_page => 3
+                    'post_type' => 'post',
+                    'posts_per_page' => '3',
+                    'category_name' => 'Blog'
                 );
                 
                 $loop2 = new WP_Query($args);
@@ -198,11 +166,7 @@
             </div>
                     <?php endwhile; else : ?>
                         <?php get_template_part('template_parts/content','error');?>
-                    <?php endif; wp_reset_postdata(); ?>
-                
-                
-                </div>
-            </div>
+                    <?php endif; wp_reset_postdata(); ?>                
         </div>
     </div>
     <div class="text-center">
@@ -242,27 +206,24 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung">
-                <img src="<?php bloginfo('template_url'); ?>/img/154-2.png" class="logo6 rounded-circle">
-                <p>Maria Brown</p>
-                <p>Founder & Creative Director</p>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung" id="linkes_float">
-                <img src="<?php bloginfo('template_url'); ?>/img/154-3.png" class="logo6 rounded-circle">
-                <p>Lia Karolmozz</p>
-                <p>Development Officer</p>
-            </div>
 
-            <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung"  id="verschieben">
-                <img src="<?php bloginfo('template_url'); ?>/img/154-4.png" class="logo6 rounded-circle">
-                <p>Amanda Ross</p>
-                <p>Design & Front-End</p>
-            </div>
+        <?php 
+                $args = array(
+                    'post_type' => 'post',
+                    'posts_per_page' => '4',
+                    'category_name' => 'Team'
+                );
+                
+                $loop2 = new WP_Query($args);
+                    
+                if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
+
             <div class="col-12 col-sm-6 col-md-3 text-center block_ordnung">
-                <img src="<?php bloginfo('template_url'); ?>/img/154-1.png" class="logo6 rounded-circle">
-                <p>John Green</p>
-                <p>Founder & Creative Director</p>
+                <?php get_template_part('template_parts/content','team');?>                
             </div>
+                    <?php endwhile; else : ?>
+                        <?php get_template_part('template_parts/content','error');?>
+                    <?php endif; wp_reset_postdata(); ?>             
         </div>
     </div>
 </section>
