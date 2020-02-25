@@ -98,6 +98,7 @@
     </div>
 </section>
 
+
 <section class="section_3">
     <div class="heading">
         <p class="text-center">PORTFOLIO</p>
@@ -166,6 +167,49 @@
         <button class="btn  button-load">Load more</button>
     </div>
 </section>
+
+
+
+<section class="section_random">
+<p class="blog_absatz text-center">
+        BLOG
+    </p>
+    <p class="description22 text-center">
+        Some great marketing insights for you
+    </p>
+    <div class="container-fluid">
+        <div class="row">
+
+                <?php 
+                
+                $args = array(
+                    post_type => 'post',
+                    posts_per_page => 3
+                );
+                
+                $loop2 = new WP_Query($args);
+                    
+                if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
+
+            <div class="col-md-4 abstand">
+                <div class="container abstand">
+                    <?php get_template_part('template_parts/content','short');?>
+                </div>
+            </div>
+                    <?php endwhile; else : ?>
+                        <?php get_template_part('template_parts/content','error');?>
+                    <?php endif; wp_reset_postdata(); ?>
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
 <section class="section_4">
     <p class="blog_absatz text-center">

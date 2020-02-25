@@ -51,7 +51,7 @@
                             
                             $args = array(
                                 post_type => 'post',
-                                posts_per_page => 3
+                                posts_per_page => 2
                             );
                             
                             $loop2 = new WP_Query($args);
