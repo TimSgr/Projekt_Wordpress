@@ -110,9 +110,8 @@
                     <?php 
                     
                     $args = array(
-                        'post_type' => 'post',
+                        'post_type' => 'portfolio_post_type',
                         'posts_per_page' => '6',
-                        'category_name' => 'Portfolio'
                     );
                     
                     $loop2 = new WP_Query($args);
@@ -150,9 +149,9 @@
                 <?php 
                 
                 $args = array(
-                    'post_type' => 'post',
+                    'post_type' => 'blog_post_type',
                     'posts_per_page' => '3',
-                    'category_name' => 'Blog'
+
                 );
                 
                 $loop2 = new WP_Query($args);
@@ -209,9 +208,8 @@
 
         <?php 
                 $args = array(
-                    'post_type' => 'post',
+                    'post_type' => 'team_post_type',
                     'posts_per_page' => '4',
-                    'category_name' => 'Team'
                 );
                 
                 $loop2 = new WP_Query($args);

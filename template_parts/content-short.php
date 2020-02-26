@@ -4,9 +4,9 @@
                 <h4> <?php the_title()?> </h4>
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
-                    2 April, 2014
+                    <?php echo get_the_date('F j, Y'); ?>
                     <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
-                    25
+                    <?php echo get_comments_number(); ?>
                 </p>
             </div>    
 
