@@ -178,12 +178,26 @@
         <div class="col-12 text-center">
             <div class="heading">
                 <p>TESTMONIALS</p>
+
+                <?php 
+                
+                $args = array(
+                    'post_type' => 'testmonial_post_type',
+                    'posts_per_page' => '1',
+
+                );
+                
+                $loop2 = new WP_Query($args);
+                    
+                if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
+
+                <?php get_template_part('template_parts/content','testmonials');?>
+
+                <?php endwhile; else : ?>
+                    <?php get_template_part('template_parts/content','error');?>
+                <?php endif; wp_reset_postdata(); ?>         
             </div>
-            <p class="oben">"Can say about these guys only good works. It has been a pleasure</p>
-            <p>working with them creating the strategy for my small car company</p>
-            <p class="font-weight-bold"> and even some more nice things"</p>
-            <img src="<?php bloginfo('template_url'); ?>/img/72.png" class="logo5 rounded-circle">
-            <p>Agnese Nada, Luxury Cars</p>
+            
         </div>
     </div>
 </section>
