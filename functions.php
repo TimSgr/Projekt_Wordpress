@@ -61,7 +61,8 @@ function portfolio() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'post_type', $args );
+     register_post_type( 'portfolio_test', $args );
+
 
 }
 add_action( 'init', 'portfolio', 0 );
