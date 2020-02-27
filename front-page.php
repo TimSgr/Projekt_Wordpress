@@ -179,58 +179,32 @@
             <div class="heading">
                 <p>TESTMONIALS</p>
             </div>
-            <section class="slider">
-                <div class="flexslider">
-                    <ul class="slides">
-                        <?php 
-                        
-                        $args = array(
-                            'post_type' => 'testmonial_post_type',
-                            'posts_per_page' => '2',
-
-                        );
-                        
-                        $loop2 = new WP_Query($args);
-                            
-                        if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
-                    
-                        <?php get_template_part('template_parts/content','testmonials');?>
-
-                        <?php endwhile; else : ?>
-                            <?php get_template_part('template_parts/content','error');?>
-                        <?php endif; wp_reset_postdata(); ?>  
-                        
-                    </ul>
-                </div>
-            </section>
         </div>
     </div>
-
-    <!-- jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
-
-    <!-- FlexSlider -->
-    <script defer src="js/jquery.flexslider.js"></script>
-
-    <script type="text/javascript">
-        $(function(){
-          SyntaxHighlighter.all();
-        });
-        $(window).load(function(){
-          $('.flexslider').flexslider({
-            animation: "slide",
-            start: function(slider){
-              $('body').removeClass('loading');
-            }
-          });
-        });
-    </script>
-    
-
 </section>
 
 
+    <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    Text
+            </li>
+            <li>
+  	    	    Text1
+            </li>
+            <li>
+                Text2
+            </li>
+            <li>
+  	    	    Text3
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+    
 
 <section class="section_6">
     <div class="container">

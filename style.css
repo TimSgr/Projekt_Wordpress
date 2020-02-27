@@ -360,16 +360,6 @@ h1 {
 
 }
 
-.site-nav {
-    margin-top: 1em;
-
-    padding-top:0px;
-}
-
-.site-nav li{
-    margin-bottom: -22px;
-}
-
 @media only screen and (max-width: 767px) {
     .kasten{ 
         margin-bottom:20px;        
@@ -392,11 +382,6 @@ h1 {
     }
 }
 
-.site-nav ul {
-    padding:0px;
-    margin-bottom:70px;
-    list-style: none;
-}
 
 .site-nav span {
     background: rgba(0,0,0,0.1);
