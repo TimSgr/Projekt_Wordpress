@@ -9,7 +9,7 @@ Version: 1.0
 }
 
 a {
-    color:white !important;
+    color:white ;
 }
 
 p {
@@ -711,6 +711,10 @@ select{
 
 .blog_title1{
     color:black !important; 
+}
+
+.black{
+    color:black;
 }
 
 @media screen and (min-width:575px) and (max-width:600px){

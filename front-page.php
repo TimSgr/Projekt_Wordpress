@@ -178,6 +178,7 @@
         <div class="col-12 text-center">
             <div class="heading">
                 <p>TESTMONIALS</p>
+            </div>
 
                 <?php 
                 
@@ -190,7 +191,7 @@
                 $loop2 = new WP_Query($args);
                     
                 if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
-
+            
                 <?php get_template_part('template_parts/content','testmonials');?>
 
                 <?php endwhile; else : ?>

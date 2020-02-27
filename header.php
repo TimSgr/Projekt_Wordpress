@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/gallery.theme.css">
     <link rel="stylesheet" href="css/gallery.min.css">   
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
