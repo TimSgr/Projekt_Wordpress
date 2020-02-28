@@ -46,7 +46,6 @@
 }
 .flexslider .slides > li {
   display: none;
-  -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
   width: 100%;
@@ -134,6 +133,7 @@ html[xmlns] .flexslider .slides {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+
 }
 .flex-direction-nav a:before {
   font-family: "flexslider-icon";
@@ -185,6 +185,7 @@ html[xmlns] .flexslider .slides {
   overflow: hidden;
   cursor: pointer;
   color: #000;
+
 }
 .flex-pauseplay a:before {
   font-family: "flexslider-icon";
@@ -199,16 +200,16 @@ html[xmlns] .flexslider .slides {
   content: '\f003';
 }
 .flex-control-nav {
-  width: 100%;
+  width: 120%;
   position: absolute;
   bottom: -40px;
   text-align: center;
 }
 .flex-control-nav li {
-  margin: 0 6px;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    display: inline;
 }
 .flex-control-paging li a {
   width: 11px;

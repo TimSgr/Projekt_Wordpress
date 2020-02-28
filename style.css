@@ -382,6 +382,28 @@ h1 {
     }
 }
 
+.flex-control-paging{
+    visibility: hidden;
+}
+
+.flex-active-slide{
+    margin-left:-40px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.flex-prev{
+    float:left;
+}
+
+.flex-next {
+    float:right;
+    margin-right:10px;
+}
+
 
 .site-nav span {
     background: rgba(0,0,0,0.1);

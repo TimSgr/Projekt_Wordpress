@@ -1,4 +1,4 @@
-<li>
+<li class="text-center">
     <p class="oben">
         <?php the_content(); ?>
     </p>
