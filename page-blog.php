@@ -50,8 +50,7 @@
                             <?php 
                             
                             $args = array(
-                                post_type => 'post',
-                                'category_name' => 'Blog',
+                                post_type => 'blog_post_type',
                                 posts_per_page => 2
                             );
                             

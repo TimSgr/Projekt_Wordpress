@@ -395,6 +395,11 @@ li {
     text-align: center;
 }
 
+.page_item{
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
 .flex-prev{
     float:left;
 }
