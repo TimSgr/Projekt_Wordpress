@@ -382,6 +382,15 @@ h1 {
     }
 }
 
+.newclass0{
+    color:red !important;
+}
+
+
+.newclass1{
+    color:green !important;
+}
+
 .flex-control-paging{
     visibility: hidden;
 }

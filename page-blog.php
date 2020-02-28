@@ -45,10 +45,8 @@
                                 <?php get_template_part('template_parts/content','error');?>
                             <?php endif; ?>
                             
-                        
-                            
                             <?php 
-                            
+
                             $args = array(
                                 post_type => 'blog_post_type',
                                 posts_per_page => 2
@@ -57,7 +55,7 @@
                             $loop2 = new WP_Query($args);
                             
                             if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
-                            <?php get_template_part('template_parts/content');?>
+                            <?php get_template_part('template_parts/content', 'blog');?>
                             <?php endwhile; else : ?>
                                 <?php get_template_part('template_parts/content','error');?>
                             <?php endif; wp_reset_postdata(); ?>
