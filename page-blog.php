@@ -52,6 +52,9 @@
                                 posts_per_page => 2
                             );
                             
+                            $next_post = get_next_post();
+                            $next_post_id = $next_post->ID;
+                            
                             $loop2 = new WP_Query($args);
                             
                             if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
@@ -106,6 +109,7 @@
                     <button class="btn">❮</button>
                     <button class="btn green-bg">1</button>
                     <button class="btn">2</button>
+                    <button class="btn">3</button>
                     <button class="btn">❯</button>
                 </div>
             </div>
