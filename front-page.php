@@ -354,11 +354,6 @@
 <section class="section_10">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <button class="btn button-more" type="button">Follow us</button>
-                </div>
-            </div>
         </div>
     </div>
 </section>

@@ -59,7 +59,10 @@
                             
                             if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
                             <?php get_template_part('template_parts/content', 'blog');?>
-                            <?php endwhile; else : ?>
+                            <?php endwhile; 
+                            next_posts_link( 'Older Entries', $the_query->max_num_pages );
+                            previous_posts_link( 'Newer Entries' ); ?>
+                            <?php else : ?>?>
                                 <?php get_template_part('template_parts/content','error');?>
                             <?php endif; wp_reset_postdata(); ?>
                         </article>
@@ -106,13 +109,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center text-center next-prev-bar">
-                    <button class="btn">❮</button>
-                    <button class="btn green-bg">1</button>
-                    <button class="btn">2</button>
-                    <button class="btn">3</button>
-                    <button class="btn">❯</button>
+                <?php
+                if ( get_previous_posts_link() ){
+                    previous_posts_link( 'Previous' );
+                } else {
+                    echo '<a href="#"><span aria-hidden="true">Previous</span></a>';
+                }
+
+                echo ' &nbsp; ';
+
+                if ( get_next_posts_link() ){
+                    next_posts_link( 'Next' );
+                } else {
+                    echo '<a href="#"><span aria-hidden="true">Next</span></a>';
+                }
+                ?>
                 </div>
             </div>
         </div>
     </section>
+
     <?php get_footer(); ?>
