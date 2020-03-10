@@ -60,6 +60,8 @@
                             
                             if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
                             <?php get_template_part('template_parts/content', 'blog');?>
+                            
+                            <?php previous_post_link(); ?>
                             <?php endwhile; 
                             next_posts_link( 'Older Entries', $the_query->max_num_pages );
                             previous_posts_link( 'Newer Entries' ); ?>
@@ -109,7 +111,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center text-center next-prev-bar">
-                <?php next_posts_link('&laquo; Previous posts'); ?> <?php previous_posts_link('Next posts &raquo;'); ?>
+
                 </div>
             </div>
         </div>

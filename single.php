@@ -43,7 +43,12 @@
                     <?php while ( have_posts() ) { the_post(); ?>
 
                         <?php get_template_part('template_parts/content');?>
-
+                            You may like one of our other posts:   
+                            <p>
+                            <?php previous_post_link('<strong>%link</strong>'); ?>
+                            <p>
+                            <?php next_post_link('<strong>%link</strong>'); ?>
+                    
                     <?php } ?>
                 <?php } else { ?>
                         
