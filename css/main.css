@@ -1,10 +1,6 @@
-/* 
-Theme Name: Projekt
-Description: Ein simples WP Theme
-Version: 1.0
-*/
 
-* {
+
+*{
     box-sizing: border-box;
 }
 
@@ -14,7 +10,7 @@ a {
 
 p {
     font-family: sans-serif;
-    margin:0px;
+    margin:5px;
 }
 
 .logo {
@@ -36,7 +32,7 @@ body{
 /* Sections */
 
 .section_1 {
-    background-image:url("img/b.jpg");
+    background-image:url("../img/b.jpg");
     height: 976px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,6 +163,8 @@ body{
 .button-more1 {
     background-color: #455d6a !important;
     color: white !important;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 
 .button_examples {
@@ -391,6 +389,7 @@ h1 {
     color:green !important;
 }
 
+
 .flex-control-paging{
     visibility: hidden;
 }
@@ -404,6 +403,7 @@ li {
     text-align: center;
 }
 
+
 .page_item{
     margin-top: -15px;
     margin-left: -40px;
@@ -411,11 +411,13 @@ li {
 
 .flex-prev{
     float:left;
+    color: black;
 }
 
 .flex-next {
     float:right;
     margin-right:10px;
+    color: black;
 }
 
 
@@ -838,5 +840,4 @@ select{
 
 img{
     height: auto;
-
 }
