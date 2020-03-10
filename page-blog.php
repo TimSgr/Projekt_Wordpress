@@ -41,6 +41,7 @@
                         <article class="site-content">
                             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                             <?php get_template_part('template_parts/content','page');?>
+                            <!--nextpage-->
                             <?php endwhile; else : ?>
                                 <?php get_template_part('template_parts/content','error');?>
                             <?php endif; ?>
@@ -67,7 +68,6 @@
                             <?php endif; wp_reset_postdata(); ?>
                         </article>
     
-
                 </main>
                 </div>
                 <div class="col-md-4 col-sm-6 order-2" id="first">
@@ -76,7 +76,7 @@
                             <ul>
                                 <li class="page_item page-item-102">&nbsp;
                                     <span> 📁 Categories</span>
-                                </li>
+                                    </li>
                                 <li class="page_item page-item-104">&nbsp;
                                     <span> News ⑳</span>
                                 </li>
@@ -109,24 +109,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center text-center next-prev-bar">
-                <?php
-                if ( get_previous_posts_link() ){
-                    previous_posts_link( 'Previous' );
-                } else {
-                    echo '<a href="#"><span aria-hidden="true">Previous</span></a>';
-                }
-
-                echo ' &nbsp; ';
-
-                if ( get_next_posts_link() ){
-                    next_posts_link( 'Next' );
-                } else {
-                    echo '<a href="#"><span aria-hidden="true">Next</span></a>';
-                }
-                ?>
+                <?php next_posts_link('&laquo; Previous posts'); ?> <?php previous_posts_link('Next posts &raquo;'); ?>
                 </div>
             </div>
         </div>
     </section>
-
+            
     <?php get_footer(); ?>

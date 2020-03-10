@@ -46,7 +46,7 @@
 
                     <?php } ?>
                 <?php } else { ?>
-
+                        
                     <?php get_template_part('template_parts/content','error');?>
 
                 <?php } ?>
@@ -55,5 +55,7 @@
         </div>
     </div>
 </div>
-    
+
+
+
 <?php get_footer() ;?>

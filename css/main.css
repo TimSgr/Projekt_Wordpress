@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-a {
-    color:white ;
-}
 
 p {
     font-family: sans-serif;
@@ -110,7 +107,7 @@ body{
 }
 
 .section_blog_1 {
-    background-image:url("img/b.jpg");
+    background-image:url("../img/b.jpg");
     height: 444px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,6 +283,10 @@ h1 {
     margin-bottom: 45px !important;
     font-size: 20px !important;
     font-weight: bold !important;
+}
+
+h3{
+    color: black;
 }
 
 .numberCircle {
