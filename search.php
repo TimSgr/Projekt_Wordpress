@@ -12,12 +12,12 @@
         <?php endwhile; else : ?>
             <p><b>Fehler</b></p>
             <p>Es gibt keine Beitäge die Ihrer Suche entsprechen.</p>
-            <p><a href="<?php ?>">Zuück zur Hauptseite</a></p>
-            <p><a href="<?php ?>">Zuück zur Beitragsseite</a></p>
-        <?php endif; ?>
+            <?php endif; ?>
         
         <?php previous_posts_link();?>
         <?php next_posts_link();?>
+            <p><a href="<?php echo get_home_url(); ?>">Zuück zur Hauptseite</a></p>
+            <p><a href="<?php echo get_permalink( get_option( 'page_for_posts' ) );?>">Zuück zur Beitragsseite</a></p>
         
     </article>
 </main>
