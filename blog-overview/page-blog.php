@@ -39,32 +39,17 @@
                 <div class="col-md-8 col-sm-6 order-1" id="second">
                     <main class="site-main">
                         <article class="site-content">
-                            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                            <?php get_template_part('template_parts/content','page');?>
-                            <?php endwhile; else : ?>
-                                <?php get_template_part('template_parts/content','error');?>
-                            <?php endif; ?>
-                            
+                        
                             <?php 
+                                $paged = ( get_query_var( 'page' ) ) ? absint( get_query_var( 'page' ) ) : 1;
+                                var_dump($paged);
 
-                            $args = array(
-                                post_type => 'blog_post_type',
-                                posts_per_page => 2
-                            );
-                            
-                            $next_post = get_next_post();
-                            $next_post_id = $next_post->ID;
-                            
-                            $loop2 = new WP_Query($args);
-                            
-                            if ( $loop2->have_posts() ) : while ( $loop2->have_posts() ) : $loop2->the_post(); ?>
-                            <?php get_template_part('template_parts/content', 'blog');?>
-                            <?php endwhile; 
-                            next_posts_link( 'Older Entries', $the_query->max_num_pages );
-                            previous_posts_link( 'Newer Entries' ); ?>
-                            <?php else : ?>?>
-                                <?php get_template_part('template_parts/content','error');?>
-                            <?php endif; wp_reset_postdata(); ?>
+                            if ( have_posts() ) : while (have_posts() ): the_post(); ?>
+                                <?php get_template_part('template_parts/content', 'blog');?>
+                            <?php endwhile; else: ?>
+                                <?php get_template_part('template_parts/content', 'error');?>
+                            <?php endif; ?>
+
                         </article>
     
 
@@ -96,9 +81,7 @@
                         </div>
                     </nav>
                     
-                    <form>
-                        <input type="text" name="search" class="this_searchbar" placeholder="Search..">
-                    </form>
+                    <?php get_search_form(); ?>
 
                 </div>
             </div>

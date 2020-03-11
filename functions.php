@@ -18,6 +18,16 @@ function my_functions() {
 }
 add_action( 'wp_enqueue_scripts', 'my_functions' );
 
+
+function remove_dot_from_paragraph($remove){
+    return '<a href=" '. get_the_permalink() . ' ">Read more...</a>';
+}
+add_filter('excerpt_more', 'remove_dot_from_paragraph');
+
+
+
+
+
 // Register Portfolio
 function portfolio() {
 

@@ -7,9 +7,8 @@
     <img src="<?php bloginfo('template_url'); ?>/img/comment.svg" class="logo4">
     <?php echo get_comments_number(); ?>
     <p>
-        <?php the_excerpt(); ?>
-        <a href="<?php the_permalink();?>" title="<?php the_title()?>">
-            Weiterlesen
-        </a>
+    &nbsp;<?php the_excerpt(); ?>
+    
+ 
     </p>
 </div>    
