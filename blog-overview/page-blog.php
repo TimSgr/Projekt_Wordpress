@@ -35,14 +35,12 @@
     </section>
     <section class="section_blog_2">
         <div class="container">
-            <div class="row">
+            <div class="row"> 
                 <div class="col-md-8 col-sm-6 order-1" id="second">
                     <main class="site-main">
                         <article class="site-content">
                         
                             <?php 
-                                $paged = ( get_query_var( 'page' ) ) ? absint( get_query_var( 'page' ) ) : 1;
-                                var_dump($paged);
 
                             if ( have_posts() ) : while (have_posts() ): the_post(); ?>
                                 <?php get_template_part('template_parts/content', 'blog');?>
