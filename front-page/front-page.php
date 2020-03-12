@@ -142,7 +142,7 @@
 
 
 
-<section class="section_random">
+<section class="section_4">
     <p class="blog_absatz text-center">
         BLOG
     </p>
@@ -175,7 +175,9 @@
         </div>
     </div>
     <div class="text-center">
-        <button class="btn button-load1">Load more</button>
+        <a href="<?php echo get_permalink( get_option( 'page_for_posts' ) );?>">
+            <button class="btn button-load1">Load more</button>
+        </a>
     </div>
 </section>
 
