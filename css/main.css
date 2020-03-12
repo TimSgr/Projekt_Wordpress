@@ -276,6 +276,28 @@ body{
     bottom: 20px;
 }
 
+.screen-reader-text{
+    display:none;
+}
+
+.pagination .page-numbers:hover {
+    background-color: green;
+}
+
+.nav-links {
+    margin: auto;
+}
+
+.current{
+    background-color: rgb(163, 163, 163) !important;
+}
+
+.page-numbers{
+    border-radius: 25px;
+    background-color: grey;
+}
+
+
 .this_searchbar{
     width: 130px;
     box-sizing: border-box;

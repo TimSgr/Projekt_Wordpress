@@ -9,11 +9,17 @@
 						<img src="<?php bloginfo('template_url'); ?>/img/logo_white.svg" class="logo">
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto">
-								<li class="nav-item"> <a class="nav-link" href="#"> Home </a>
+								<li class="nav-item"> <a class="nav-link" href="<?php echo get_home_url(); ?>"> Home </a>
 								</li>
-								<li class="nav-item"> <a class="nav-link" href="#"> Blog </a>
+								<li class="nav-item"> 
+                                    <a class="nav-link" href="<?php echo get_permalink( get_option( 'page_for_posts' ) );?>"> 
+                                        Blog 
+                                    </a>
 								</li>
-								<li class="nav-item"> <a class="nav-link" href="#"> Info </a>
+								<li class="nav-item"> 
+                                    <a class="nav-link" href="#"> 
+                                        Info 
+                                    </a>
 								</li>
                             </ul>
                             P:(800) 997-9714 &nbsp;

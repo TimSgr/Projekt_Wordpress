@@ -9,10 +9,14 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"> Home </a>
+                                        <a class="nav-link" href="<?php echo get_home_url(); ?>">
+                                            Home 
+                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"> Blog </a>
+                                        <a class="nav-link" href="<?php echo get_permalink( get_option( 'page_for_posts' ) );?>">
+                                            Blog 
+                                        </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#"> Info </a>
@@ -89,21 +93,9 @@
     <section class="section_blog_3">
         <div class="container">
             <div class="row">
-                <div class="col-12 justify-content-center text-center next-prev-bar">
+                <div class="col-12 next-prev-bar">
                 <?php
-                if ( get_previous_posts_link() ){
-                    previous_posts_link( 'Previous' );
-                } else {
-                    echo '<a href="#"><span aria-hidden="true">Previous</span></a>';
-                }
-
-                echo ' &nbsp; ';
-
-                if ( get_next_posts_link() ){
-                    next_posts_link( 'Next' );
-                } else {
-                    echo '<a href="#"><span aria-hidden="true">Next</span></a>';
-                }
+                    the_posts_pagination();
                 ?>
                 </div>
             </div>
