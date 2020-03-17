@@ -11,17 +11,23 @@ p {
 }
 
 .logo {
-    height:20px;
-    height:20px;
+    height:34px;
+    margin-right: 5px;
 }
 
 body{ 
     font-family: Open Sans !important;
 }
 
+.page-numbers{
+    border-radius: 25px;
+    border-color: black;
+    border-width: 1px;
+}
+
 .pagination .page-numbers {
-    background: #db605d;
-    color: #fff;
+    background:white;
+    color: #24dc97;
     display: block;
     width: auto;
     float: left;
@@ -31,22 +37,31 @@ body{
  }
   
  .pagination .page-numbers:hover {
-    background: #24221D;
+    background:#24dc97;
     color: #fff;
     text-decoration: none;
  }
   
+
  .pagination .current {
-    background: #24221D;
+    background:#24dc97 !important;
     color: #fff;
     padding: 15px 18px 14px 18px;
  }
 
+
+.abstand_o{
+    margin-top: 20px;
+}
+
 .section_4{
     padding-top:60px;
-    margin-top: 50px;
     background-color: #f7f9f9;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+}
+
+.informations{
+    padding-bottom: 20px;
 }
 
 /* Sections */
@@ -58,6 +73,11 @@ body{
     background-size: cover;
     color: white;
     /* margin-top: -32px !important; */
+}
+
+.section_2 {
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
 
 .section_3 {
@@ -75,6 +95,7 @@ body{
 }
 
 .section_6 {
+    padding-top: 30px;
     padding-bottom: 60px;
 }
 
@@ -231,10 +252,14 @@ body{
     font-size: 50px;
 }
 
+.white{
+    color:white;
+}
+
 
 /*Für Pfeil*/
 .arrow_down {
-    margin-top: 50px;
+    margin-top: 200px;
     width: 5%; 
     height: auto; 
 }
@@ -276,21 +301,14 @@ body{
     display:none;
 }
 
-.pagination .page-numbers:hover {
-    background-color: green;
-}
+
 
 .nav-links {
     margin: auto;
 }
 
-.current{
-    background-color: rgb(163, 163, 163) !important;
-}
-
-.page-numbers{
-    border-radius: 25px;
-    background-color: grey;
+.nav-link {
+    color:white !important;
 }
 
 
@@ -454,12 +472,32 @@ li {
 .flex-prev{
     float:left;
     color: black;
+    margin-top: -150px;
 }
 
 .flex-next {
     float:right;
     margin-right:10px;
     color: black;
+}
+
+
+.size-thumbnail{
+    height: 460px;
+    margin-top: -96px;
+    width: 688px;
+}
+
+.thumbnail_t{
+    width: 743px;
+    height: 302px;
+    overflow: hidden
+}
+
+.new_class {
+    text-align: center;    
+    margin-top: 45px;
+    margin-bottom: 10px;
 }
 
 
@@ -493,8 +531,12 @@ li {
     margin-left: -20px;
   }
   
+.margin_1{
+    margin-bottom: 20px;
+}
 
 header {
+    padding-top: 20px;
     max-width: 1706px;
     max-height: 92px;
 }
@@ -693,7 +735,6 @@ select{
 .heading {
     font-size: 30px;
     font-weight: bolder;
-    padding-top: 96px;
 }
 
 .heading1{
@@ -772,6 +813,17 @@ select{
     font-size: 10px;
     font-family: open sans;
     width: 100% !important;
+}
+
+.text-block3 {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 10px;
+    font-family: open sans;
 }
 
 .blog_title1{

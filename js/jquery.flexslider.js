@@ -1244,3 +1244,11 @@
     }
   };
 })(jQuery);
+
+//set img
+var img = document.createElement("img");
+ 
+img.src = "../img/arrow_down1.png";
+var src = document.getElementById("x");
+ 
+src.appendChild(img);

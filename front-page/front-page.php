@@ -16,11 +16,6 @@
                                         Blog 
                                     </a>
 								</li>
-								<li class="nav-item"> 
-                                    <a class="nav-link" href="#"> 
-                                        Info 
-                                    </a>
-								</li>
                             </ul>
                             P:(800) 997-9714 &nbsp;
 							<a href="#">
@@ -33,7 +28,7 @@
                     <p class="description">A marketing and brand</p>
                     <p class="description11">creation agency.</p>
                         <p class="description_one">We don't just make logos, we make design & content</p>
-                        <p class="description_one">choices that disrupt the market from the inside out.</p>
+                        <p class="description_one margin_1">choices that disrupt the market from the inside out.</p>
                         
                         <button class="btn button-started">Get started</button>
                         <button class="btn button-more">Learn more</button>
@@ -42,15 +37,9 @@
             </div>
         </div>
     </div>
-    <div class="text-center oben2">
-            <span>•</span>
-            <span>•</span>
-            <span>•</span>
-            <span>•</span>
-    </div>
     <p class="text-center">
         <a href="#section_2"> 
-            <img src="<?php bloginfo('template_url'); ?>/img/arrow_down.svg" class="arrow_down">
+            <img src="<?php bloginfo('template_url'); ?>/img/arrow_down1.png" class="arrow_down">
         </a>
     </p>
 </section>
@@ -211,7 +200,7 @@
                 
           </ul>
         </div>
-      </section>
+</section>
 
 
     
@@ -270,7 +259,7 @@
                 <p class="">
                     and having some fun along the way
                 </p>
-                <button class="btn button-started">Get started</button>
+                <button class="btn button-started abstand_o">Get started</button>
             </div>
         </div>
     </div>
@@ -355,13 +344,6 @@
                     <p><button class="btn button-started1">Send</button></p>
                 </form>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="section_10">
-    <div class="container">
-        <div class="row">
         </div>
     </div>
 </section>

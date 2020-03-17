@@ -55,7 +55,7 @@
                         </article>
     
 
-                </main>
+                    </main>
                 </div>
                 <div class="col-md-4 col-sm-6 order-2" id="first">
                     <nav class="site-nav">
@@ -95,7 +95,11 @@
             <div class="row">
                 <div class="col-12 next-prev-bar">
                 <?php
-                    the_posts_pagination();
+                    the_posts_pagination( array(
+                        'mid-size' => 2,
+                        'prev_text' => __( '<', 'textdomain' ),
+                        'next_text' => __( '>', 'textdomain' ),
+                    ));
                 ?>
                 </div>
             </div>
