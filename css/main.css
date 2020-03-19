@@ -460,7 +460,7 @@ h3{
 
 li {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -469,44 +469,65 @@ li {
     margin-left: -40px;
 }
 
+
 .flex-prev{
     float:left;
     color: black;
-    margin-top: -150px;
 }
 
 .flex-next {
     float:right;
     margin-right:10px;
+
     color: black;
 }
 
+.abstand-links {
+    margin-left: 30px;
+}
+
+.abstand-oben{
+    margin-top: 40px;
+}
 
 .size-thumbnail{
-    height: 460px;
-    margin-top: -96px;
-    width: 688px;
+    height: 305px;
+    margin-top: -56px;
+    width: 740px;
 }
 
 .thumbnail_t{
     width: 743px;
     height: 302px;
-    overflow: hidden
+    overflow: hidden;
+    margin-bottom: -20px;
 }
 
 .new_class {
     text-align: center;    
-    margin-top: 45px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
+.text_links {
+    text-align: left;
+}
+
+.dunkelgrau{
+    background-color: #ebeded;
+}
 
 .site-nav span {
-    background: rgba(0,0,0,0.1);
+    background-color: #f0f3f3;
     padding: 1em;
     display: block;
     text-decoration: none;
 }
+
+.site-nav li {
+    margin-top: 5px;
+}
+
 
 .speech {
     position: relative;

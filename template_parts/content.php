@@ -1,7 +1,9 @@
 <article <?php post_class();?>>
     <h2><a class="blog_title1"><?php the_title();?></a></h2>
     
-    <?php the_post_thumbnail('thumbnail',); ?>
+    <div class="bildgroeße">
+        <?php the_post_thumbnail('thumbnail',); ?>
+    </div>
         <p>by <?php the_author(); ?>  
     <img src="<?php bloginfo('template_url'); ?>/img/clock.png" class="logo4">
         <?php echo get_the_date('F j, Y'); ?>

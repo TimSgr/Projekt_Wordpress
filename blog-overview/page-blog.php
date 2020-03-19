@@ -57,35 +57,36 @@
 
                     </main>
                 </div>
-                <div class="col-md-4 col-sm-6 order-2" id="first">
-                    <nav class="site-nav">
+                <div class="col-md-4 col-sm-6 order-2 abstand-oben" id="first">
+                    <nav class="site-nav abstand-links">
                         <div class="menu">
                             <ul>
-                                <li class="page_item page-item-102">&nbsp;
-                                    <span> 📁 Categories</span>
+                                <li class="page_item page-item-102">
+                                    <span class="dunkelgrau"> 📁 Categories</span>
                                 </li>
-                                <li class="page_item page-item-104">&nbsp;
+                                <li class="page_item page-item-104">
                                     <span> News ⑳</span>
                                 </li>
-                                <li class="page_item page-item-106">&nbsp;
+                                <li class="page_item page-item-106">
                                     <span> Strategy ⑳</span>
                                 </li>
-                                <li class="page_item page-item-108">&nbsp;
+                                <li class="page_item page-item-108">
                                     <span> Brand ⑳</span>
                                 </li>
-                                <li class="page_item page-item-110">&nbsp;
+                                <li class="page_item page-item-110">
                                     <span> Site ⑳</span>
                                 </li>
-                                <li class="page_item page-item-112">&nbsp;
+                                <li class="page_item page-item-112">
                                     <span> Internal ⑳</span>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                     
+                <div class="abstand-links abstand-oben">
                     <?php get_search_form(); ?>
-
                 </div>
+  
             </div>
         </div>
         

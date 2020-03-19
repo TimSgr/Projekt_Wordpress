@@ -35,9 +35,9 @@
         </div>
 </section>
 
-<div class="container">
+<div class="container abstand-oben">
     <div class="row">
-        <div class="col-md-12 d-flex text-center">
+        <div class="col-md-8 col-sm-6 order-1 text-center" id="second">
             <div class="loop">
                 <?php if ( have_posts() ) {?>
                     <?php while ( have_posts() ) { the_post(); ?>
@@ -56,6 +56,39 @@
 
             </div>
         </div>
+        <div class="col-md-4 col-sm-6 order-2" id="first">
+            <nav class="site-nav abstand-links">
+                <div class="menu">
+                    <ul>
+                        <li class="page_item page-item-102">
+                            <span> 📁 Categories</span>
+                        </li>
+                        <li class="page_item page-item-104">
+                            <span> News ⑳</span>
+                        </li>
+                        <li class="page_item page-item-106">
+                            <span> Strategy ⑳</span>
+                        </li>
+                        <li class="page_item page-item-108">
+                            <span> Brand ⑳</span>
+                        </li>
+                        <li class="page_item page-item-110">
+                            <span> Site ⑳</span>
+                        </li>
+                        <li class="page_item page-item-112">
+                            <span> Internal ⑳</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="abstand-links abstand-oben">
+                <?php get_search_form(); ?>
+            </div>
+
+        </div>   
+    
+    
     </div>
 </div>
 
