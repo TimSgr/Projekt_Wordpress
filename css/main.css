@@ -470,16 +470,18 @@ li {
 }
 
 
+
 .flex-prev{
     float:left;
     color: black;
+    font-size: 40px;
 }
 
 .flex-next {
     float:right;
     margin-right:10px;
-
     color: black;
+    font-size: 40px;
 }
 
 .abstand-links {
